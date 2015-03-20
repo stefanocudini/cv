@@ -1,0 +1,23 @@
+{
+  "name": "stefano-cudini-cv",
+  "version": "0.0.1",
+  "description": "Stefano Cudini - Curriculum Vitae",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanocudini/cv.git"
+  },
+  "keywords": [
+    "stefano",
+    "cudini",
+    "cv",
+    "developer"
+  ],
+  "author": {
+    "name": "Stefano Cudini",
+    "email": "stefano.cudini@gmail.com",
+    "url": "http://labs.easyblog.it"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/stefanocudini/cv"
+}
