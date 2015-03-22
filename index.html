@@ -9,27 +9,34 @@
 <style type="text/css">
 body {
     font-family: Arial;
-    color: #333;
+    color: #444;
     background: #f0f5f6;
     margin: 0;
     padding: 0;
 }
-b { color: #555; }
+b { color: #666; }
 img { border: 0; }
 a:link,
 a:visited {
 	color: #056;
 	text-decoration: none;
 }
-a:hover { text-decoration: underline; }
+a:hover {
+	text-decoration: underline;
+}
 
-h1,h2 {
+h1,h2,h3 {
 	color: #056;
-	font-size: 1.25em;
+	font-size: 18px;
 	margin:0;
 	padding: 0;
+	font-weight: normal;
+	text-transform: uppercase;
 }
-h4 { margin: 0; padding: 0}
+h3 {
+	font-size: 16px;
+	text-transform: none;
+}
 hr {
 	border:none;
     height: 2em;
@@ -48,21 +55,26 @@ li {
 }
 .titles {
     float: left;
-    width: 25%;
-    padding:.5em .85em;    
-    color: #056;   
-    font-style: italic; 
+    width: 20%;
+    padding: 16px 0;
+    color: #056;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: middle;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: right;    
 }
 .contents {
     float: left;
     min-width: 400px;
     margin-left: -1px;
     width: 65%;
-    padding:.5em 1em;
-    border-left: 1px solid #9ab;
+    padding: 16px;
+/*    border-left: 1px solid #bcd;*/
 }
-.sez {  
-    border-bottom: 1px solid #9ab;  
+.sez {
+    border-bottom: 1px solid #bcd;  
 }
 /*
 .titles { background-color: #dcc; }
@@ -70,7 +82,6 @@ li {
 */
 #photo {
 	margin:0;
-    border-radius:.5em;
 }
 #cons {
     font-size: .85em;
@@ -83,6 +94,26 @@ li {
 	font-size:.85em;
     margin: 1em auto;
 	text-align:center;
+}
+#content {
+	margin-bottom: 2em;
+}
+#totop {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: .25em 1em;
+    background: #f0f5f6;
+    border-top: 1px solid #9ab;
+    box-shadow: -2px 0 16px rgba(0,20,30,.30);
+    font-weight: bold;
+}
+#indice {
+	float: right;
+	list-style: none;
+	line-height: 16px;
 }
 @media print {
     a {
@@ -120,21 +151,6 @@ li {
         box-shadow:none;
     }
 }
-#content {
-	margin-bottom: 2em;
-}
-#totop {
-	display: block;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	padding: .25em 1em;
-    background: #f0f5f6;
-    border-top: 1px solid #9ab;
-    box-shadow: -2px 0 16px rgba(0,20,30,.30);
-    font-weight: bold;
-}
 </style>
 </head>
 
@@ -147,7 +163,7 @@ li {
     </div>
     <div class="row">
         <div class="titles">
-            <ol id="indice">
+            <ul id="indice">
                 <li><a href="#settore">Settore professionale</a></li>
                 <li><a href="#competenze">Competenze tecniche</a></li>
                 <li><a href="#progetti">Progetti personali</a></li>
@@ -156,7 +172,7 @@ li {
                 <li><a href="#esperienzenopro">Esperienze non professionali</a></li>
                 <li><a href="#istruzione">Istruzione e formazione</a></li>
                 <li><a href="#interessi">Interessi personali</a></li>
-            </ol>
+            </ul>
         </div>
         <div class="contents">
             <img id="photo" alt="Stefano Cudini" height="200" width="200" src="stefano-cudini.png" />
@@ -174,7 +190,7 @@ li {
     <div class="row">
         <div class="titles">Nome e Cognome</div>
         <div class="contents">
-        	<h2><a href="https://plus.google.com/u/0/+StefanoCudini?rel=author">Stefano Cudini</a></h2>
+        	<b><a href="https://plus.google.com/u/0/+StefanoCudini?rel=author">Stefano Cudini</a></b>
         </div>
     </div>
 
@@ -198,9 +214,9 @@ li {
     <div class="row">
         <div class="titles">Social networks</div>
         <div class="contents">
-            <a href="http://github.com/stefanocudini">github.com/stefanocudini</a><br />
-            <a href="http://www.openstreetmap.org/user/StefanoCudini">osm.org/user/StefanoCudini</a><br />
-            <a href="http://stackoverflow.com/users/526444/stefanocudini">stackoverflow.com/users/526444s</a><br />            
+            <a href="http://github.com/stefanocudini">Github.com</a><br />
+            <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap.org</a><br />
+            <a href="http://stackoverflow.com/users/526444/stefanocudini">Stackoverflow.com</a><br />            
         </div>
     </div>
 
@@ -255,16 +271,16 @@ li {
         <div class="titles"></div>
         <div class="contents">
             <ul>
-                <li><i>Linguaggi:</i>  <b>PHP</b>, <b>Javascript</b>(client e server), Python, Bash scripting, C, Java</li>
-                <li><i>Librerie e framework:</i> <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, AmplifyJs</li>
-                <li><i>Linguaggi di Markup: </i> XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, RSS</li>
-                <li><i>Database:</i> MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
-                <li><i>Daemons:</i>  <b>Apache</b>, Lighttpd, <b>Nginx</b>, Proftpd, Postfix, Dovecot, Fail2Ban</li>
-                <li><i>Sistemi Operativi:</i>  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
-                <li><i>Sistemi di versioning:</i>  <b>Mercurial</b>, Git</li>
-                <li><i>Software particolari:</i>  <b>Qgis</b>, <b>Josm</b>, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/"><b>CorelDraw</b></a>, Inkscape, Gimp, VirtualBox</li>
-                <li><i>Cms e piattaforme web:</i>  <b>Wordpress</b>, Drupal, OsCommerce</li>
-                <li><i>Tools di sviluppo:</i> Sublime Text, Nano, Gedit, <b>GruntJS</b>, NPM, Bower, Firebug, Chrome console</li>
+                <li>Linguaggi:  <b>PHP</b>, <b>Javascript</b>(client e server), Python, Bash scripting, C, Java</li>
+                <li>Librerie e framework: <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, AmplifyJs</li>
+                <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, RSS</li>
+                <li>Database: MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
+                <li>Daemons:  <b>Apache</b>, Lighttpd, <b>Nginx</b>, Proftpd, Postfix, Dovecot, Fail2Ban</li>
+                <li>Sistemi Operativi:  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
+                <li>Sistemi di versioning:  <b>Git</b>, Mercurial</li>
+                <li>Software particolari:  <b>Qgis</b>, <b>Josm</b>, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/"><b>CorelDraw</b></a>, Inkscape, Gimp, VirtualBox</li>
+                <li>Cms e piattaforme web:  <b>Wordpress</b>, Drupal, OsCommerce</li>
+                <li>Tools di sviluppo: Sublime Text, Nano, Gedit, <b>GruntJS</b>, NPM, Bower, Firebug, Chrome console</li>
             </ul>
         </div>
     </div>
@@ -280,49 +296,47 @@ li {
     <div class="row">
         <div class="titles"></div>
         <div class="contents">
-        	<p>
-        		<big><a href="http://mixtags.com/">Mixtags.com</a></big>
+        <ul>
+			<li>
+	        	<h3><a href="http://labs.easyblog.it/">labs.easyblog.it</a></h3>
+	        	Demo di <b>applicazioni web</b>
+        		<br /><br />
+            </li>        
+        	<li>
+        		<h3><a href="http://mixtags.com/">Mixtags.com</a></h3>
         		Servizio avanzato di <b>bookmarking</b> con <b>folksonomy</b>.
-        	</p>
-        	<p>
-        		<big><a href="http://easyblog.it/photos/demo/">Ultra Light Gallery</a></big>
+        	</li>
+        	<li>
+        		<h3><a href="http://easyblog.it/photos/demo/">Ultra Light Gallery</a></h3>
         		<b>Photo Gallery</b> Wysiwyg in <b>PHP</b>/<b>jQuery</b> con <b>struttura modulare</b>.<br />
 				Oltre 30 plugins, ottimizzazioni SEO, 
 				<b>upload Ajax</b>, <b>compressione Javascript</b> automatica.
-        	</p>
-        	<p>
-        		<big><a href="http://localhost/maps/gpx-simplify-optimizer/">Tracks Optimizer online</a></big>
+        	</li>
+        	<li>
+        		<h3><a href="http://localhost/maps/gpx-simplify-optimizer/">Tracks Optimizer online</a></h3>
         		Web app per <b>ottimizzare tracce</b> GPX/KML/GeoJSON online, con <b>algoritmo RDP</b>.
-        	</p>        	
-        	<p>
-        		<big><a href="http://labs.easyblog.it/maps/gps-network-tracking-system/">Track GPS Network</a></big>
+        	</li>        	
+        	<li>
+        		<h3><a href="http://labs.easyblog.it/maps/gps-network-tracking-system/">Track GPS Network</a></h3>
         		Sistema di <b>tracking realtime</b>, archiviazione in <b>Postgis</b>, front-end in <b>Openlayers</b>.
-        	</p>		            		            	
-        	<p>
-        		<big><a href="http://labs.easyblog.it/maps/leaflet-search/">Leaflet Control Search</a></big>
+        	</li>		            		            	
+        	<li>
+        		<h3><a href="http://labs.easyblog.it/maps/leaflet-search/">Leaflet Control Search</a></h3>
         		Popolare <b>plugin Leaflet</b> per la ricerca di elementi all'interno di un layer e tramite <b>Jsonp/Ajax</b>.
-        	</p>
-        	<p>
-        		<big><a href="http://labs.easyblog.it/maps/leaflet-panel-layers/">Leaflet Panel Layers</a></big>
+        	</li>
+        	<li>
+        		<h3><a href="http://labs.easyblog.it/maps/leaflet-panel-layers/">Leaflet Panel Layers</a></h3>
         		<b>Plugin Leaflet</b> estensione di Control.Layers per gestire <b>gruppi multipli di layers</b> e <b>legenda</b> con icone.
-        	</p>
-        	<p>
-        		<big><a href="http://labs.easyblog.it/dns-320-command-line/">DNS-320 PHP Interface</a></big>
+        	</li>
+        	<li>
+        		<h3><a href="http://labs.easyblog.it/dns-320-command-line/">DNS-320 PHP Interface</a></h3>
         		<b>Interfaccia a riga di comando</b> del NAS Dlink ShareCenter Pulse.
-        	</p>
-        	<p>
-        		<big><a href="http://labs.easyblog.it/maps/share-tracks/">Share Gpx Tracks</a></big>
+        	</li>
+        	<li>
+        		<h3><a href="http://labs.easyblog.it/maps/share-tracks/">Share Gpx Tracks</a></h3>
         		Condivisione ed <b>embedding di tracce gpx</b>
-        	</p>
-        	<p>&nbsp;</p>
-			<p>
-	        	<big><a href="http://labs.easyblog.it/">labs.easyblog.it</a></big>
-	        	Demo di <b>applicazioni web</b> varie
-            </p>
-            <p>
-            	<big><a href="http://labs.easyblog.it/web-mapping/">labs.easyblog.it/web-mapping</a></big>
-            	Demo <b>applicazioni GIS</b> e <b>Web Mapping</b>
-            </p>
+        	</li>
+        </ul>
         </div>
     </div>
 
@@ -419,8 +433,8 @@ li {
         <div class="contents">
             <ul>
                 <li><b>Programmatore Javascript</b> per il progetto <b>Mapstore</b>:<br />
-                	<a href="http://mapstore.geo-solutions.it/">mapstore.geo-solutions.it</a><br />
-                	<a href="https://github.com/geosolutions-it/mapstore/commits?author=stefanocudini">github.com/geosolutions-it/mapstore</a>
+                	<a href="http://mapstore.geo-solutions.it/">mapstore.geo-solutions.it</a> 
+                	(<a href="https://github.com/geosolutions-it/mapstore/commits?author=stefanocudini">github</a>)
                 </li>
                 <li>Customizzazione <b>front-end</b> di <a href="http://suite.opengeo.org/opengeo-docs/geoexplorer/">GeoExplorer</a> con libreria <b>GeoExt</b> </li>
                 <li>Integrazione della visualizzazione dati con Google Earth</li>
@@ -458,10 +472,7 @@ li {
         <div class="titles">Lavoro o posizione ricoperti</div>
         <div class="contents">
             <ul>
-                <li>Programmatore PHP e consulente, per il sito di gambling: www.winonsky.com
-                <br />
-                <br />
-                <a href="http://www.youtube.com/watch?v=_6xUjevLpXs">Video Demo</a>
+                <li>Programmatore PHP e consulente, per il sito di gambling: www.winonsky.com (<a href="http://www.youtube.com/watch?v=_6xUjevLpXs">Video Demo</a>)
                 </li>
                 <li>Configurazione per supporto alle specifiche <a href="http://www.dkim.org/">DKIM</a> e <a href="http://it.wikipedia.org/wiki/Sender_Policy_Framework">SPF</a></li>
                 <li>Integrazione nell'applicazione del <a href="https://developer.paypal.com/">gateway di pagamento Paypal</a></li>
@@ -509,7 +520,7 @@ li {
 				Dati Socio Demografici per le regioni Lombardia e Piemonte:<br />
 				<a href="http://labs.easyblog.it/portfolio/ires/Bilanci_Lomb_2010_X/dati_demografici/">Dati demografici</a>
 				</li>
-				<li>Banca dati Convenzioni per Auser Filo d'Argento(<a href="http://www.auser.it">www.auser.it</a>):<br />
+				<li>Banca dati Convenzioni per Auser Filo d'Argento:<br />
 				<a href="http://labs.easyblog.it/portfolio/ires/Auser_Convenzioni_2010/">Auser Convenzioni</a>
 				</li>
 				<li>Design del layout del portale:<br />
@@ -783,7 +794,7 @@ li {
 
     <div class="row">
         <div class="titles">Date</div>
-        <div class="contents">Anni 2001-2002</div>
+        <div class="contents">2001</div>
     </div>
 
     <div class="row">
