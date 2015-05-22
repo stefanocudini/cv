@@ -94,7 +94,7 @@
 
 <div class="title">Data di nascita</div>
 
-<div class="contents">4 aprile 1982</div>
+<div class="contents">aprile 1982</div>
 
 </div>
 
