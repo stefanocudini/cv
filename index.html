@@ -2,10 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Stefano Cudini - Curriculum Vitae</title>
-<meta name="description" content="Programmatore web: Javascript, HTML5, PHP, MeteorJS, NodeJS, Mongodb, sistemi GIS, Webmapping" />
-<meta name="author" content="Stefano Cudini" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Stefano Cudini" />
+<meta name="description" content="Programmatore web: Javascript, HTML5, Leaflet, PHP, MeteorJS, NodeJS, Mongodb, sistemi GIS, Webmapping" />
 <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" />
+<link rel="shortcut icon" type="image/png" href="stefano-cudini_60px.png" />
+<link rel="image_src" href="stefano-cudini.png" />
 <style type="text/css">
 body {
     font-family: Arial;
@@ -71,15 +73,10 @@ li {
     margin-left: -1px;
     width: 65%;
     padding: 16px;
-/*    border-left: 1px solid #bcd;*/
 }
 .sez {
     border-bottom: 1px solid #bcd;  
 }
-/*
-.title { background-color: #dcc; }
-.contents { background-color: #ccd; }
-*/
 #photo {
 	margin:0;
 }
@@ -92,8 +89,7 @@ li {
 }
 #valid {
 	font-size:.85em;
-    margin: 1em auto;
-	text-align:center;
+    margin-bottom: 2em;
 }
 #content {
 	margin-bottom: 2em;
@@ -131,9 +127,6 @@ li {
 		display:none;
 		visibility: hidden;
 	}
-    #cons {
-        margin-top: 2em;
-    }
     .cat {
     	page-break-inside: avoid;
     }
@@ -221,8 +214,10 @@ li {
 	    <div class="title">Social networks</div>
 	    <div class="contents">
 	        <a href="http://github.com/stefanocudini">Github.com</a><br />
+	        <a href="https://www.npmjs.com/~stefcud">NpmJs.com</a><br />
+	        <a href="https://atmospherejs.com/stefcud">AtmosphereJs.com</a><br />
 	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap.org</a><br />
-	        <a href="http://stackoverflow.com/users/526444/stefanocudini">Stackoverflow.com</a><br />            
+	        <a href="http://stackoverflow.com/users/526444/stefanocudini">StackOverflow.com</a><br />
 	    </div>
 	</div>
 
@@ -319,6 +314,10 @@ li {
 	    		Servizio avanzato di <b>bookmarking</b> con <b>folksonomy</b>.
 	    	</li>
 	    	<li>
+	    		<h3><a href="http://labs.easyblog.it/maps/#leaflet-plugins">Leaflet Plugins</a></h3>
+	    		Popolari <b>plugins Leaflet</b> per la ricerca, formattazione dei layers, interazione avanzata front-end e caricamento dati da servizi di terzi
+	    	</li>	    	
+	    	<li>
 	    		<h3><a href="http://easyblog.it/photos/demo/">Ultra Light Gallery</a></h3>
 	    		<b>Photo Gallery</b> Wysiwyg in <b>PHP</b>/<b>jQuery</b> con <b>struttura modulare</b>.<br />
 				Oltre 30 plugins, ottimizzazioni SEO, 
@@ -332,14 +331,6 @@ li {
 	    		<h3><a href="http://labs.easyblog.it/maps/gps-network-tracking-system/">Track GPS Network</a></h3>
 	    		Sistema di <b>tracking realtime</b>, archiviazione in <b>Postgis</b>, front-end in <b>Openlayers</b>.
 	    	</li>		            		            	
-	    	<li>
-	    		<h3><a href="http://labs.easyblog.it/maps/leaflet-search/">Leaflet Control Search</a></h3>
-	    		Popolare <b>plugin Leaflet</b> per la ricerca di elementi all'interno di un layer e tramite <b>Jsonp/Ajax</b>.
-	    	</li>
-	    	<li>
-	    		<h3><a href="http://labs.easyblog.it/maps/leaflet-panel-layers/">Leaflet Panel Layers</a></h3>
-	    		<b>Plugin Leaflet</b> estensione di Control.Layers per gestire <b>gruppi multipli di layers</b> e <b>legenda</b> con icone.
-	    	</li>
 	    	<li>
 	    		<h3><a href="http://labs.easyblog.it/dns-320-command-line/">DNS-320 PHP Interface</a></h3>
 	    		<b>Interfaccia a riga di comando</b> del NAS Dlink ShareCenter Pulse.
@@ -415,11 +406,11 @@ li {
 	            </li>
 	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, con <b>OS Debian GNU/Linux</b></li>
 	            <li>Progettazione e implementazione del sistema di acquisizione dati (daemon <b>NodeJS</b>):<br />
-	            	<a href="http://labs.easyblog.it/maps/gpsdata_server/#architecture">GPS Data Server</a></li>
+	            	<a href="http://labs.easyblog.it/maps/gpsdata-server/#architecture">GPS Data Server</a></li>
 	            <li>Implementazione dell'interfaccia di back-end per il <b>monitoring real-time</b> del <b>GPS Data Server</b>:<br />
-	            	<a href="http://labs.easyblog.it/maps/gpsdata_server/#backend">Monitoring</a></li>
+	            	<a href="http://labs.easyblog.it/maps/gpsdata-server/#backend">Monitoring</a></li>
 	            <li>Riprogettazione del layout e integrazione con <b>jQuery UI</b>:<br />
-	            	<a href="http://labs.easyblog.it/maps/gpsdata_server/#frontend">Front-end</a></li>
+	            	<a href="http://labs.easyblog.it/maps/gpsdata-server/#frontend">Front-end</a></li>
 	            <li>Ottimizzazioni varie nella gestione dei grafici</li>                                                
 	        </ul>
 	    </div>
@@ -1014,14 +1005,18 @@ li {
 	</div>
 
 	<div class="row">
-	    <div id="cons">
-	    AI senti della legge 196/03 e successive modifiche
-	    autorizzo il trattamento dei miei dati personali contenuti in questo
-	    curriculum
+	    <div class="title">
 	    </div>
-		<div id="valid">
-	    	<a href="http://validator.w3.org/check?uri=referer">[Valid XHTML]</a> &bull; 
-	    	<a href="http://jigsaw.w3.org/css-validator/check/referer">[Valid CSS]</a>
+	    <div class="contents">
+		    <small>AI senti della legge 196/03 e successive modifiche
+		    autorizzo il trattamento dei miei dati personali contenuti in questo
+		    curriculum
+		    </small>
+		    <br /><br />
+		    <div id="valid">
+			    	<a href="http://validator.w3.org/check?uri=referer">[Valid XHTML]</a> 
+			    	<a href="http://jigsaw.w3.org/css-validator/check/referer">[Valid CSS]</a>
+		    </div>
 	    </div>
 	</div>
 </div> 
