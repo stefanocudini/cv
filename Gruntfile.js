@@ -9,7 +9,7 @@ grunt.initConfig({
 	pkg: grunt.file.readJSON('package.json'),
 	clean: {
 		main: {
-			src: ['index.md']
+			src: ['README.md']
 		}
 	},
 	html2md: {
