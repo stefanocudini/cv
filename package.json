@@ -1,6 +1,6 @@
 {
   "name": "stefano-cudini-cv",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Stefano Cudini - Curriculum Vitae",
   "main": "index.html",
   "repository": {
@@ -18,11 +18,5 @@
     "url": "http://labs.easyblog.it"
   },
   "license": "MIT",
-  "homepage": "https://github.com/stefanocudini/cv",
-  "devDependencies": {
-    "grunt-cli": "~0.1.13",
-    "grunt": "~0.4.5",
-    "grunt-html2md": "~1.0.0",
-    "grunt-contrib-clean": "~0.6.0"
-  }
+  "homepage": "https://github.com/stefanocudini/cv"
 }

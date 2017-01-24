@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" />
 <link rel="shortcut icon" type="image/png" href="stefano-cudini_60px.png" />
 <link rel="image_src" href="stefano-cudini.png" />
+<link rel="stylesheet" href="github-light.css" />
 <style type="text/css">
 body {
     font-family: Helvetica;
@@ -112,6 +113,11 @@ li {
 	list-style: none;
 	line-height: 16px;
 }
+#qr {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
 @media print {
     a {
         text-decoration: none;
@@ -178,6 +184,7 @@ li {
 	    </div>
 	    <div class="contents">
 	        <img id="photo" alt="Stefano Cudini" height="200" width="200" src="stefano-cudini.png" />
+	        <img id="qr" alt="Stefano Cudini CV" height="100" width="100" src="stefano-cudini-qr.png" />
 	    </div>
 	</div>
 
@@ -214,11 +221,10 @@ li {
 	<div class="row">
 	    <div class="title">Social networks</div>
 	    <div class="contents">
-	        <a href="http://github.com/stefanocudini">Github.com</a><br />
-	        <a href="https://www.npmjs.com/~stefcud">NpmJs.com</a><br />
-	        <a href="https://atmospherejs.com/stefcud">AtmosphereJs.com</a><br />
-	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap.org</a><br />
-	        <a href="http://stackoverflow.com/users/526444/stefanocudini">StackOverflow.com</a><br />
+	        <a href="http://github.com/stefanocudini">Github</a><br />
+	        <a href="https://www.npmjs.com/~stefcud">Npm</a><br />
+	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap</a><br />
+	        <a href="http://stackoverflow.com/users/526444/stefanocudini">StackOverflow</a><br />
 	    </div>
 	</div>
 
@@ -277,16 +283,15 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	        <ul>
-	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, <b>Python</b>, Bash scripting, C, Java</li>
-	            <li>Librerie e framework: <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, AmplifyJs</li>
+	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, <b>Python</b>, Bash scripting, C</li>
+	            <li>Librerie e framework: <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, <b>Highcharts</b></li>
 	            <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, RSS</li>
 	            <li>Database: MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
-	            <li>Daemons:  <b>Apache</b>, Lighttpd, <b>Nginx</b>, Proftpd, Postfix, Dovecot, Fail2Ban</li>
+	            <li>Daemons:  <b>Apache</b>, Lighttpd, <b>Nginx</b>, Proftpd, Postfix, Fail2Ban</li>
 	            <li>Sistemi Operativi:  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
-	            <li>Sistemi di versioning:  <b>Git</b>, Mercurial</li>
-	            <li>Software particolari:  <b>Qgis</b>, <b>Josm</b>, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/"><b>CorelDraw</b></a>, Inkscape, Gimp, VirtualBox</li>
-	            <li>Cms e piattaforme web:  <b>Wordpress</b>, Drupal, OsCommerce</li>
-	            <li>Tools di sviluppo: Sublime Text, Nano, Gedit, <b>GruntJS</b>, NPM, Bower, Firebug, Chrome console</li>
+				<li>Piattaforme:  Wordpress, Drupal, OsCommerce</li>
+	            <li>Software: <b>Geoserver</b>, <b>Qgis</b>, <b>Google Earth Engine</b>, Josm, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/">CorelDraw</a>, Inkscape, Gimp, VirtualBox</li>
+	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, <b>Grunt</b>, Firebug, Chrome console</li>
 	        </ul>
 	    </div>
 	</div>
@@ -313,36 +318,42 @@ li {
 	    	<li>
 	    		<h3><a href="http://mixtags.com/">Mixtags.com</a></h3>
 	    		Servizio avanzato di <b>bookmarking</b> con <b>folksonomy</b>.
+	    		<br /><br />
 	    	</li>
 	    	<li>
 	    		<h3><a href="http://labs.easyblog.it/maps/#leaflet-plugins">Leaflet Plugins</a></h3>
 	    		Popolari <b>plugins Leaflet</b> per la ricerca, formattazione dei layers, interazione avanzata front-end e caricamento dati da servizi di terzi
-	    	</li>	    	
+	    	</li>
+	    	<li>
+	    		<h3><a href="http://localhost/maps/gpx-simplify-optimizer/">Tracks Optimizer online</a></h3>
+	    		Servizio online per <b>ottimizzare tracce</b> GPX/KML/GeoJSON con algoritmo <a href="https://it.wikipedia.org/wiki/Algoritmo_Ramer-Douglas-Peucker">RDP</a>.
+	    	</li>        	
+	    	<li>
+	    		<h3><a href="http://labs.easyblog.it/maps/gps-network-tracking-system/">Track GPS Network</a></h3>
+	    		Sistema di <b>tracking realtime</b>, archiviazione in <b>Postgis</b>, front-end in <b>Openlayers</b>.
+	    	</li>
 	    	<li>
 	    		<h3><a href="http://easyblog.it/photos/demo/">Ultra Light Gallery</a></h3>
 	    		<b>Photo Gallery</b> Wysiwyg in <b>PHP</b>/<b>jQuery</b> con <b>struttura modulare</b>.<br />
 				Oltre 30 plugins, ottimizzazioni SEO, 
 				<b>upload Ajax</b>, <b>compressione Javascript</b> automatica.
-	    	</li>
-	    	<li>
-	    		<h3><a href="http://localhost/maps/gpx-simplify-optimizer/">Tracks Optimizer online</a></h3>
-	    		Web app per <b>ottimizzare tracce</b> GPX/KML/GeoJSON online, con <b>algoritmo RDP</b>.
-	    	</li>        	
-	    	<li>
-	    		<h3><a href="http://labs.easyblog.it/maps/gps-network-tracking-system/">Track GPS Network</a></h3>
-	    		Sistema di <b>tracking realtime</b>, archiviazione in <b>Postgis</b>, front-end in <b>Openlayers</b>.
-	    	</li>		            		            	
-	    	<li>
-	    		<h3><a href="http://labs.easyblog.it/dns-320-command-line/">DNS-320 PHP Interface</a></h3>
-	    		<b>Interfaccia a riga di comando</b> del NAS Dlink ShareCenter Pulse.
-	    	</li>
-	    	<li>
-	    		<h3><a href="http://labs.easyblog.it/maps/share-tracks/">Share Gpx Tracks</a></h3>
-	    		Condivisione ed <b>embedding di tracce gpx</b>
-	    	</li>
+	    	</li>	    	
 	    </ul>
 	    </div>
 	</div>
+
+	<div class="row">
+	    <div class="title">
+	        Pubblicazioni
+	    </div>
+	    <div class="contents">
+	    	<ul>
+	        	<li><a href="https://scholar.google.com.au/citations?user=3s158_wAAAAJ">Definition of REST web services with JSON schema</a></li>
+	        	<li><a href="http://easyblog.it/corso-coreldraw/">Corso di introduzione a CorelDRAW</a></li>
+	        </ul>
+	    </div>
+	</div>
+
 
 </div>
 
@@ -368,7 +379,7 @@ li {
 	            	<a href="http://fenix.fao.org/">fenix.fao.org</a><br />
 	            	<a href="https://github.com/fenix-platform/">Fenix Platform on Github.com</a>
 	            </li>
-				<li><P></P>Project manager, programmatore Javascript, amministratore di sistema:<br />
+				<li>Programmatore Javascript, amministratore di sistema:<br />
 	            	<a href="http://africafertilizer.org/">www.africafertilizer.org</a>
 	            </li>	            
 	            <li>Progettazione e programmazione <b>Javascript</b> con specifiche <b>AMD</b> per la piattaforma <a href="http://fenix.fao.org/"><b>Fenix Platform</b></a></li>
@@ -871,7 +882,9 @@ li {
 	    <div class="title">Posizione</div>
 
 	    <div class="contents">
-	        Gruppo Speleologico UTEC Narni: <a href="http://labs.easyblog.it/portfolio/utec">www.spelex.net/utec</a>
+			<a href="http://labs.easyblog.it/portfolio/utec">
+			Gruppo Speleologico UTEC Narni
+			</a>
 	        <br />
 	        <br />
 	        <ul>
@@ -927,7 +940,7 @@ li {
 
 	<div class="row">
 	    <div class="title"></div>
-	    <div class="contents">Iscritto all'universita'  degli studi di Perugia nel
+	    <div class="contents">Iscritto all'universita'  degli studi di Perugia nel
 	    Corso<br />
 	    di Laurea in Ingegneria Informatica e delle Telecomunicazioni, sede di
 	    Orvieto.<br />
@@ -1050,15 +1063,12 @@ li {
 
 	<div class="row">
 	    <div class="title">
-	        Libri, Manuali, Articoli
+	        Libri
 	    </div>
 	    <div class="contents">
 	    	<ul>
 		        <li><a href="http://easyblog.it/photos/stefano/libri/">Libri in biblioteca</a></li>
 		        <li><a href="http://www.anobii.com/stefanocudini/books">Anobii.com</a>, <a href="http://www.scribd.com/zakis_">Scribd.com</a></li>	        
-	        	<li>Autore di vari articoli su CorelDRAW:<br />
-	        		<a href="http://easyblog.it/corso-coreldraw/">Corso di introduzione a CorelDRAW</a>
-	        	</li>
 	        </ul>
 	    </div>
 	</div>
@@ -1096,4 +1106,3 @@ _gaq.push(['_trackPageview']);
 
 </body>
 </html>
-
