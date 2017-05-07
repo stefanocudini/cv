@@ -11,15 +11,19 @@
 <link rel="stylesheet" href="github-light.css" />
 <style type="text/css">
 body {
-    font-family: Helvetica;
-	font-size:15px;
+   	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:.85em;
     color: #444;
-    background: #f0f5f6;
+    background: #eff5f6;
     margin: 0;
     padding: 0;
 }
-b { color: #666; }
-img { border: 0; }
+b {
+	color: #666;
+}
+img {
+	border: 0;
+}
 a:link,
 a:visited {
 	color: #056;
@@ -28,11 +32,10 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }
-
 h1,h2,h3 {
 	color: #056;
 	font-size: 18px;
-	margin:0;
+	margin: 16px 0 0 0;
 	padding: 0;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -51,86 +54,114 @@ ul {
     padding-left:1em; 
 } 
 li {
-    margin-bottom: .5em;
+    margin-bottom: .65em;
 }
 .row {
     clear: both;
     overflow: hidden;
 }
 .title {
-    float: left;
-    width: 20%;
-    padding: 16px 0;
+    padding: 16px 0 16px 16px;
     color: #056;
-    font-size: 11px;
-    line-height: 18px;
     vertical-align: middle;
     text-transform: uppercase;
-    text-align: right;    
+    text-align: right; 
 }
 .contents {
-    float: left;
-    min-width: 400px;
-    margin-left: -1px;
-    width: 65%;
+	position: relative;
     padding: 16px;
 }
 .sez {
     border-bottom: 1px solid #bcd;  
 }
-#photo {
-	margin:0;
+#qr {
+	float: right;
 }
-#cons {
-    font-size: .85em;
-	font-style:italic;
-    text-align:right;
-    padding: .25em;
-    margin-top:2em;
-}
-#valid {
-	font-size:.85em;
-    margin-bottom: 2em;
-}
-#content {
-	margin-bottom: 2em;
-}
-#totop {
+footer {
 	display: block;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: .25em 1em;
+	padding: 8px;
     background: #f0f5f6;
-    border-top: 1px solid #9ab;
-    box-shadow: -2px 0 16px rgba(0,20,30,.30);
-    font-weight: bold;
-	text-align: right;
+    box-shadow: -2px 0 10px rgba(0,20,30,.3);
 }
 #indice {
+	font-size:.85em;
 	float: right;
 	list-style: none;
-	line-height: 16px;
 }
-#qr {
-	position: absolute;
-	right: 20px;
-	top: 20px;
+@media screen and (min-width: 480px) {
+	.title {
+		float: left;
+		width: 20%;
+		padding: 16px;
+	}
+	.contents {
+		float: left;
+		width: 70%;
+		padding: 16px;
+	}
 }
+@media screen and (max-width: 480px) {
+	.title {
+		font-size: .85em;
+		padding: 8px;
+		width: 100%;
+		text-align: left;		
+	}
+	.contents {
+		padding: 8px;
+		margin: 0;
+	}
+	#indice {
+		padding: 0;
+		margin-right: 8px;
+		float: left;
+	}
+	#photo {
+		width: 100px;
+		height: 100px;
+	}
+}
+
 @media print {
+	body {
+		margin: 1em 2em;
+		font-size:.5em;
+		color: #000;
+    	background: none;
+	}
+	b {
+		color: #333
+	}
     a {
+    	color: #333
         text-decoration: none;
     }
     a:link:after,
     a:visited:after {
         content:" [" attr(href) "] ";
-        font-size: small;
+        font-size: .65em;
         color:#bbb;
+        text-transform: lowercase;
     }
-    #indice,
-    #totop,
-	#valid {
+    h1 {
+    	margin: 0
+    }
+    h2 {
+    	font-size: 1.5em;
+    }
+    h3 {
+		font-size: 1em;
+	}
+	#qr,
+    #photo {
+		height: 8em;
+		width: 8em;
+	}
+    footer {
 		display:none;
 		visibility: hidden;
 	}
@@ -138,14 +169,15 @@ li {
     	page-break-inside: avoid;
     }
     .title {
+    	font-size: .7em;
     	text-align: left;
         float: left;
         width: 20%;
-        padding:0;
+        padding: .5em 0;
     }
     .title.sez {
         width: 100%;
-        margin: 1em 0 2em 0;
+        margin: 2em 0 2em 0;
     }
     .contents {
         float: left;
@@ -159,6 +191,7 @@ li {
 		margin: 20mm;
 	}
 }
+
 </style>
 </head>
 
@@ -197,13 +230,13 @@ li {
 	<div class="row">
 	    <div class="title">Nome e Cognome</div>
 	    <div class="contents">
-	    	<b><a href="https://plus.google.com/u/0/+StefanoCudini?rel=author">Stefano Cudini</a></b>
+	    	<b>Stefano Cudini</b>
 	    </div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Residenza</div>
-	    <div class="contents"><a href="http://osm.org/go/xdC9Ypg1-">Roma</a></div>
+	    <div class="contents">Roma</div>
 	</div>
 
 	<div class="row">
@@ -235,7 +268,7 @@ li {
 
 	<div class="row">
 	    <div class="title">Data di nascita</div>
-	    <div class="contents">aprile 1982</div>
+	    <div class="contents">Aprile 1982</div>
 	</div>
 
 	<div class="row">
@@ -1081,17 +1114,18 @@ li {
 		    autorizzo il trattamento dei miei dati personali contenuti in questo
 		    curriculum
 		    </small>
-		    <br /><br />
-		    <div id="valid">
-			    	<a href="http://validator.w3.org/check?uri=referer">[Valid XHTML]</a> 
-		    </div>
 	    </div>
 	</div>
 </div> 
 
-<div id="totop">
-	<a href="#top">Indice</a>
-</div>
+<footer>
+	<a id="totop" href="#top">Indice</a>
+	<div style="float: right;">
+		<a id="pdf" href="stefano-cudini-cv.pdf">PDF Version</a> 
+			&nbsp;&bull;&nbsp;
+		<a id="valid" href="http://validator.w3.org/check?uri=referer">XHTML Valid</a>
+	</div>
+</footer>
 
 <script type="text/javascript">
 var _gaq = _gaq || [];
