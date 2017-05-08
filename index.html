@@ -14,7 +14,7 @@ body {
    	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:.85em;
     color: #444;
-    background: #eff5f6;
+    background: #f8fbf5;
     margin: 0;
     padding: 0;
 }
@@ -83,7 +83,7 @@ footer {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: 8px;
+	padding: 10px;
     background: #f0f5f6;
     box-shadow: -2px 0 10px rgba(0,20,30,.3);
 }
@@ -105,22 +105,28 @@ footer {
 	}
 }
 @media screen and (max-width: 480px) {
+	h2 {
+		font-size:1.25em;
+	}
 	.title {
-		font-size: .85em;
+		font-size: .75em;
 		padding: 8px;
 		width: 100%;
 		text-align: left;		
 	}
 	.contents {
+		clear: both;
 		padding: 8px;
-		margin: 0;
+		margin-left: 16px;
 	}
 	#indice {
-		padding: 0;
-		margin-right: 8px;
+		list-style: inherit;
+		margin-left: 16px;
 		float: left;
+		line-height: 2em;
 	}
 	#photo {
+		float: left;
 		width: 100px;
 		height: 100px;
 	}
@@ -344,15 +350,9 @@ footer {
 	    <div class="title"></div>
 	    <div class="contents">
 	    <ul>
-			<li>
-	        	<h3><a href="http://labs.easyblog.it/">labs.easyblog.it</a></h3>
-	        	Demo di <b>applicazioni web</b>
-	    		<br /><br />
-	        </li>        
 	    	<li>
 	    		<h3><a href="http://mixtags.com/">Mixtags.com</a></h3>
 	    		Servizio avanzato di <b>bookmarking</b> con <b>folksonomy</b>.
-	    		<br /><br />
 	    	</li>
 	    	<li>
 	    		<h3><a href="http://labs.easyblog.it/maps/#leaflet-plugins">Leaflet Plugins</a></h3>
@@ -1085,12 +1085,12 @@ footer {
 	            <li>Programmazione:<br />
 	            	<a href="http://labs.easyblog.it/">labs.easyblog.it</a><br />
 	            </li>
+	            <li>Sport:<br />
+	                Parapendio, Arrampicata, Alpinismo, Speleologia, Canyoning, DownHill, Rollerblade, Slackline.
+	            </li>
 	            <li>Fotografia:<br />
 	            	<a href="http://easyblog.it/photos/stefano">easyblog.it/photos/stefano</a><br />
-	            </li>
-	            <li>Sport:<br />
-	                Arrampicata, Canyoning, Speleologia, Alpinismo, Trekking, Parapendio, DownHill, Rollerblade.
-	            </li>
+	            </li>	            
 	        </ul>
 	    </div>
 	</div>
@@ -1111,7 +1111,7 @@ footer {
 	    <div class="title">
 	    </div>
 	    <div class="contents">
-		    <small>AI senti della legge 196/03 e successive modifiche
+		    <small>Ai senti della legge 196/03 e successive modifiche
 		    autorizzo il trattamento dei miei dati personali contenuti in questo
 		    curriculum
 		    </small>
