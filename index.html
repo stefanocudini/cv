@@ -13,7 +13,7 @@ body {
    	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:.85em;
     color: #444;
-    background: #f8fbf5;
+    background: #fafdf7;
     margin: 0;
     padding: 0;
 }
@@ -67,11 +67,11 @@ li {
     text-align: right; 
 }
 .contents {
-	position: relative;
     padding: 16px;
+    border-left: 1px solid #bcd;  
 }
 .sez {
-    border-bottom: 1px solid #bcd;  
+    border-right: 1px solid #bcd;  
 }
 #qr {
 	float: right;
@@ -117,6 +117,7 @@ li {
 		clear: both;
 		padding: 8px;
 		margin-left: 16px;
+		border-left: none;
 	}
 	#indice {
 		list-style: inherit;
@@ -129,6 +130,11 @@ li {
 		width: 100px;
 		height: 100px;
 	}
+	#qr {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}	
 }
 
 @media print {
@@ -184,6 +190,7 @@ li {
     .title.sez {
         width: 100%;
         margin: 2em 0 2em 0;
+        border: none;
     }
     .contents {
         float: left;
@@ -353,8 +360,7 @@ li {
 	    <ul>
 	    	<li>
 	    		<h3><a href="http://keplerjs.io/">KeplerJs platform</a></h3>
-	    		Piattaforma per <b>geosocial network</b> full-stack e <b>open source</b> in <b>NodeJs</b>.
-
+	    		Piattaforma di <b>geosocial networking</b> full-stack e <b>open source</b> in <b>NodeJs</b>.
 	    	</li>	    	
 	    	<li>
 	    		<h3><a href="http://mixtags.com/">Mixtags.com</a></h3>
