@@ -10,15 +10,14 @@
 <link rel="image_src" href="stefano-cudini.png" />
 <style type="text/css">
 body {
-   	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size:.85em;
+   	font-family: Helvetica, Arial, sans-serif;
     color: #444;
     background: #fafdf7;
     margin: 0;
     padding: 0;
 }
 b {
-	color: #666;
+	color: #777;
 }
 img {
 	border: 0;
@@ -33,15 +32,14 @@ a:hover {
 }
 h1,h2,h3 {
 	color: #056;
-	font-size: 18px;
+	font-size: 16px;
 	margin: 16px 0 0 0;
 	padding: 0;
 	font-weight: normal;
 	text-transform: uppercase;
 }
 h3 {
-	font-size: 16px;
-	text-transform: none;
+	font-size: 14px;
 }
 hr {
 	border:none;
@@ -59,10 +57,13 @@ li {
     clear: both;
     overflow: hidden;
 }
-.row.date {
-	
+.row.date .title,
+.row.date .contents {
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 .title {
+	font-size: 12px;
     padding: 16px 0 16px 16px;
     color: #056;
     vertical-align: middle;
@@ -70,6 +71,8 @@ li {
     text-align: right; 
 }
 .contents {
+	font-size: 14px;
+	line-height: 16px;
     padding: 16px;
     border-left: 1px solid #bcd;  
 }
@@ -143,7 +146,6 @@ li {
 @media print {
 	body {
 		margin: 1em 2em;
-		font-size:.5em;
 		color: #000;
     	background: none;
 	}
@@ -203,7 +205,7 @@ li {
         box-shadow:none;
     }
 	@page {
-		size: 297mm 210mm;
+		size: 210mm 297mm;
 		margin: 20mm;
 	}
 }
@@ -270,10 +272,9 @@ li {
 	<div class="row">
 	    <div class="title">Social networks</div>
 	    <div class="contents">
-	        <a href="https://www.npmjs.com/~stefcud">Npm</a><br />
 	        <a href="http://github.com/stefanocudini">Github</a><br />
-	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap</a><br />
 	        <a href="http://stackoverflow.com/users/526444/stefanocudini">StackOverflow</a><br />
+	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap</a><br />
 	        <a href="https://twitter.com/zakis">Twitter</a><br />
 	        <a href="https://medium.com/@stefcud">Medium</a><br />
 	    </div>
@@ -334,15 +335,15 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	        <ul>
-	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, <b>Python</b>, Bash scripting, C</li>
-	            <li>Librerie e framework: <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, Highcharts</li>
+	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, SQL, <b>Python</b>, Bash scripting, C</li>
 	            <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, <b>Overpass QL</b></li>
+	            <li>Librerie e framework: <b>jQuery</b>, <b>Leaflet</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Grunt</b>, <b>Openlayers</b>, ExpressJS, ExtJS, <b>RequireJS</b>, Highcharts</li>
 	            <li>Database: MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
-	            <li>Daemons:  <b>Nginx</b>, <b>Apache</b>, Lighttpd, Proftpd, Postfix, Fail2Ban</li>
+	            <li>Servizi:  <b>Nginx</b>, <b>Apache</b>, Lighttpd, Proftpd, Postfix, Fail2Ban</li>
 	            <li>Sistemi Operativi:  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
-				<li>Piattaforme:  Wordpress, Drupal, OsCommerce</li>
+				<li>CMS: Wordpress, Drupal</li>
 	            <li>Software: <b>Geoserver</b>, <b>Qgis</b>, <b>Gdal</b>, <b>Google Earth Engine</b>, Josm, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/">CorelDraw</a>, Inkscape, Gimp, VirtualBox</li>
-	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, <b>Grunt</b>, Firebug, Chrome console</li>
+	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, Chrome DevTools, Firebug</li>
 	        </ul>
 	    </div>
 	</div>
@@ -401,72 +402,76 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Luglio 2016 ad Dicembre 2016</div>
+	    <div class="contents">Luglio 2016 - Gennaio 2017</div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
+	    	<p>
+	    		Programmatore Javascript/Python e amministratore di sistema. Progettazione e implementazione di varie <b>piattaforme Web GIS</b> con utilizzo di tecnologie open source e <b>remote sensing</b> data.
+	            Implementazione di componenti per <b>web-mapping</b> in <b>LeafletJS</b> con specifiche <b>AMD</b>(Asynchronous module definition) e ottimizzazione dei front-end con <b>Webpack</b>.
+				
+	            Configurazione/amministrazione delle istanze <b>GeoServer</b> e <b>PostgreSQL</b> di test e produzione.
+	        </p>
 	        <ul>
-	            <li>Programmatore Javascript, amministratore di sistema:<br />
-	            	<a href="http://fenix.fao.org/">fenix.fao.org</a><br />
-	            	<a href="https://github.com/fenix-platform/">Fenix Platform on Github.com</a>
-	            </li>
-	            <li>
-	            	Global Land Use Trends Portal
-	            	<a href="https://earthengine.google.com/"> Google Earth Engine
-	            </li>
-				<li>Amministratore di sistema:<br />
-	            	<a href="http://africafertilizer.org/">www.africafertilizer.org</a>
-	            </li>
-				<li>Crowd Prices - Real time Price monitoring system<br />
-	            	<a href="http://fenixapps2.fao.org/crowddata/">Crowd Prices</a>
+	        	<li>
+	        		<p>
+	        			<h3>Crowd Prices</h3>
+						Sistema di monitoraggio real-time dei prezzi acquisiti in crowdsourcing nei mercati di alcuni paesi dell'Africa
+					</p>
+	            	<a href="http://fenixapps2.fao.org/crowddata/">User Interface</a>, 
+	            	<a href="http://fenix.fao.org/demo/crowdprices-web/">Sources</a>
 				</li>
-
-	            <li>Progettazione e programmazione <b>Javascript</b> con specifiche <b>AMD</b> per la piattaforma <a href="http://fenix.fao.org/"><b>Fenix Platform</b></a></li>
-				<li>Programmazione componenti per <b>Web Mapping</b> con <b>LeafletJS</b></li>
-				<li>Design e programmazione data entry con tecnologia <b>JSON SCHEMA</b></li>
-	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, su OS Linux <b>Red Hat Enterprise</b></li>
-	            <li>Gestione e configurazione <b>GeoServer</b></li>
 	            <li>
-				This assignment will contribute to the development and implementation of the new CountrySTAT Platform. The main goal is to build
-				a system able to facilitate management and dissemination of various data and metadata sources and provide analytical
-				functionalities to derive indicators and products. The application to be implemented will be based on the FENIX system that uses the
-				same architecture of AMIS (Agricultural Market Information System) and ADAM (Agricultural Development Assistance Mapping). 
-				The consultant will work under the overall guidance of CIO as a part of virtual Fenix team, with the statistics related work being
-				supervised by ESS. The consultant will contribute to develop the CountrySTAT software platform for what it concerns the upgrade
-				and operationalization of the analytical functionalities. The work deals with three main areas: a) development of the server-side
-				analysis component, including aggregations, b) restructuring of the CountrySTAT database and c) improvement of the functionalities
-				to enhance data visualization and statistical processing.
+	            	<p>
+	            		<h3>Global Land Use Trends Portal</h3>
+	            		Progetto di pubblicazione dati di <b>crowdsourcing</b> su Web GIS per <b>FAO Forestry Department</b>.
+	            		<br />
+	            		Elaborazione dati <b>NDVI</b> ed altre sorgenti dati puntuali.
+	            		<br />
+	            		Elaborazione e pubblicazione dati con utilizzo di <a href="https://earthengine.google.com/">Google Earth Engine</a>.
+	            		<br />
+	            		Postprocessamento(Tassellatura di Voronoi) e pubblicazione su servizi WMS in <b>Geoserver</b>.
+	            	</p>
+	            	<a href="http://fenixrepo.fao.org/cdn/js/glt/">User Interface</a><br />
+	            </li>
+	            <li>
+	            	<p>
+	            		<h3>The Near East and North Africa (NENA) region</h3>
+	            		Monitoraggio e calcolo di alcuni parametri ambientali: precipitazioni, temperatura, evapotraspirazione, indice vegetazione<br />
+	            		Utilizzo e sviluppo del framework opensource <a href="https://github.com/geobricks">Geobricks</a> in Python per acquisizione e post processamento di dati NASA.
+	            	</p>
+	            	<a href="http://fenix.fao.org/demo/nena/">User Interface</a>, 
+	            	<a href="https://github.com/FENIX-Platform-Projects/nena-ui">Sources</a>,
+	            	<a href="https://github.com/FENIX-Platform-Projects/nena-regions">Python scripts</a>
+	            </li>
+	            <li>
+            		<p>
+            			<h3>Economic Cooperation Organization (ECO) countries</h3>
+            			Monitoraggio di flussi di import/export di merci tra i paesi della ECO<br />
+            			Utilizzo e sviluppo del <a href="https://github.com/FENIX-Platform/fenix-ui-map/graphs/contributors">componente mappa</a> del framework <a href="https://github.com/feNIX-Platform">Fenix</a>.
+            		</p>
+	            	<a href="http://fenix.fao.org/demo/eco-trade-ui/">User Interface</a>, 
+	            	<a href="https://github.com/FENIX-Platform-Projects/eco-trade-ui">Sources</a>
 				</li>
 				<li>
-					More specifically, the consultant will undertake the following duties:
-					<ul>
-						<li>Liaise with the national focal points to collect statistical requirements of their CountrySTAT application and identify
-						suitable technologies for implementing the required functionalities.</li>
-
-						<li> Reconfigure the various instances of the CountrySTAT applications to include the foreseen analytical functionalities on
-						the basis of the new FENIX architecture.</li>
-						<li>  Restructure the CountrySTAT database to handle large volumes of data; ensure that metadata information is consistent
-						with the database. Develop services to efficiently retrieve and process the database information.</li>
-						<li> Contribute to the development of the user interface of the “Analysis” section of CountrySTAT.</li>
-						<li>  If time permits, review the FENIX filtering mechanism to enable users to identify resources and filter data according to
-						the specified criteria.</li>
-						<li>  Periodically review the progress in coordination with the CountrySTAT teams in FAO HQ and in the countries.</li>
-						<li>  Test the developed functionalities and carry out bug-fixing.</li>
-						<li>  Other tasks as required.</li>
-					</ul>
+					<h3>Altri Progetti:</h3>
+					<a href="https://en.wikipedia.org/wiki/CountrySTAT">CountrySTAT Platform</a> <br />
+					<a href="http://www.amis-outlook.org/">AMIS (Agricultural Market Information System)</a><br />
+					<a href="https://en.wikipedia.org/wiki/FAO_ADAM">ADAM (Agricultural Development Assistance Mapping)</a><br />
 				</li>
 	        </ul>
 	    </div>
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
-	    Information Technology Division (CIO) Food and Agriculture Organization (FAO)<br />
+	    Information Technology Division (CIO)<br />
+	    Food and Agriculture Organization (FAO)<br />
 	    <br />
 	    Viale delle Terme di Caracalla, Roma<br />
 	    www.fao.org
@@ -482,11 +487,10 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Settembre 2014 ad Oggi</div>
+	    <div class="contents">Settembre 2014 - Luglio 2016</div>
 	</div>
-
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
@@ -495,12 +499,21 @@ li {
 	            	<a href="http://fenix.fao.org/">fenix.fao.org</a><br />
 	            	<a href="https://github.com/fenix-platform/">Fenix Platform on Github.com</a>
 	            </li>
-				<li>Programmatore Javascript, amministratore di sistema:<br />
+				<li>Programmatore Javascript, database manager:<br />
 	            	<a href="http://africafertilizer.org/">Africafertilizer.org</a>
 	            </li>	            
 	            <li>Progettazione e programmazione <b>Javascript</b> con specifiche <b>AMD</b> per la piattaforma <a href="http://fenix.fao.org/"><b>Fenix Platform</b></a></li>
 				<li>Programmazione componenti per <b>Web Mapping</b> con <b>LeafletJS</b></li>
-				<li>Design e programmazione data entry con tecnologia <b>JSON SCHEMA</b></li>
+				
+				<li>
+					Progettazione e programmazione data entry con tecnologia <b>JSON SCHEMA</b>
+					<br />
+					Database manager su <b>MongoDB</b> e PostgreSQL
+					<a href="https://github.com/FENIX-Platform-Projects/fmd-ui">
+						Global Foot and Mouth Disease Control Strategy Report Questionnaire
+					</a>
+				</li>
+
 	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, su OS Linux <b>Red Hat Enterprise</b></li>
 	            <li>Gestione database <b>PostgreSQL</b>, <b>MongoDB</b></li>
 	        </ul>
@@ -508,16 +521,18 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	    
-	    Statistics Division (ESS) Food and Agriculture Organization (FAO)<br />
-	    Food and agriculture statistics<br />
-	    Social and economic development
+	    
+	    Statistics Division (ESS)<br />
+	    Economic and Social Development Department<br />
+	    Food and Agriculture Organization (FAO)<br />
 	    
 	    <br />
 	    Viale delle Terme di Caracalla, Roma<br />
 	    www.fao.org<br />
+	    www.fao.org/economic/ess<br />
 	    fenix.fao.org
 	</div>
 
@@ -531,16 +546,16 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Giugno 2014 - Agosto 2014</div>
+	    <div class="contents">Maggio 2014 - Settembre 2014</div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
 	        <ul>
-	            <li>Amministratore di sistema, programmatore Javascript, Grafico per la web app:<br />
+	            <li>Amministratore di sistema, programmatore Javascript per la web app:<br />
 	            	<a href="http://www.openmove.com/#company">www.openmove.com</a>
 	            </li>
 	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, con <b>OS Debian GNU/Linux</b></li>
@@ -553,7 +568,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">Lucian S.r.l.<br />
 	    <br />
 	    Via della Lasta, 12 38065 Mori, Trento<br />
@@ -570,7 +585,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Agosto 2013 - Gennaio 2014</div>
 	</div>
@@ -595,7 +610,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">Bibbiani Macchine Agricole<br />
 	    <br />
 	    www.agrisystema.com</div>
@@ -611,7 +626,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2012 - Gennaio 2013</div>
 	</div>
@@ -637,7 +652,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">GeoSolutions s.a.s.<br />
 	    <br />
 	    Via Poggio alle Viti 1187, Massarosa, Lucca<br />
@@ -654,7 +669,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Dicembre 2011 - Febbraio 2012</div>
 	</div>
@@ -673,7 +688,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">Webel<br />
 	    <br />
 	    Via valle cupa 8, Viterbo<br />
@@ -690,7 +705,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Febbraio 2010 - Luglio 2010</div>
 	</div>
@@ -725,7 +740,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	        Associazione IRES Lucia Morosini<br />
 	        <br />
@@ -744,7 +759,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Febbraio 2008 - Maggio 2008</div>
 	</div>
@@ -765,7 +780,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	        NetAddiction s.r.l.<br />
 	        <br />
@@ -784,7 +799,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Dicembre 2007 - Aprile 2008</div>
 	</div>
@@ -803,7 +818,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	    	E-volving, business integration<br />
 	    	<br />
@@ -822,7 +837,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Aprile 2006 - Febbraio 2007</div>
 	</div>
@@ -863,7 +878,7 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	    	NetAddiction s.r.l.<br />
 	    	<br />
@@ -960,7 +975,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2005</div>
 	</div>
@@ -990,7 +1005,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Marzo 2003</div>
 	</div>
@@ -1010,7 +1025,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">2001</div>
 	</div>
@@ -1031,15 +1046,15 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">1998</div>
 	</div>
 
 	<div class="row">
-	    <div class="title"></div>
+	    <div class="title">Posizione</div>
 	    <div class="contents">
-	    	Primo sito web personale<br />
+	    	Webmaster, primo sito web personale<br />
 	        <ul>
 	            <li><a href="http://spazioinwind.libero.it/spelex/">www.spelex.cjb.net</a></li>
 	        </ul>
@@ -1056,13 +1071,13 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Luglio 2001</div>
 	</div>
 
 	<div class="row">
-	    <div class="title">Titolo della qualifica rilasciata</div>
+	    <div class="title"></div>
 	    <div class="contents">Diploma di Maturita' conseguito all' Istituto
 	    Tecnico<br />
 	    Industriale Statale L.Allievi di Terni, in "Perito Industriale
@@ -1070,7 +1085,7 @@ li {
 	    Elettrotecnico: specializzato in Automazione"<br /></div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2001</div>
 	</div>
@@ -1091,12 +1106,12 @@ li {
 	    </div>
 	    <div class="contents">
 	    	<ul>
-	        	<li>Definition of REST web services with <b>JSON schema</b>
+	        	<li>Articolo <i>"Definition of REST web services with JSON schema"</i>
 	        	<br />
 	        	<a href="https://www.researchgate.net/scientific-contributions/2120105206_Stefano_Cudini">Researchgate</a>, 
 				<a href="https://scholar.google.com.au/citations?user=3s158_wAAAAJ">Google Scholar</a>
 			</li>
-	        	<li><a href="http://easyblog.it/corso-coreldraw/">Corso di introduzione a <b>CorelDRAW</b></a> in 20 lezioni</li>
+	        	<li>Corso online <i><a href="http://easyblog.it/corso-coreldraw/">Introduzione a CorelDRAW in 20 lezioni</a></i></li>
 	        </ul>
 	    </div>
 	</div>
@@ -1114,7 +1129,7 @@ li {
 
 	<div class="row">
 	    <div class="title">Altre lingue</div>
-	    <div class="contents">inglese (ottima comprensione scritto/letto)</div>
+	    <div class="contents">Inglese</div>
 	</div>
 
 </div>
@@ -1127,7 +1142,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2015</div>
 	</div>
@@ -1139,7 +1154,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2006</div>
 	</div>
@@ -1151,7 +1166,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2007</div>
 	</div>
@@ -1166,7 +1181,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2008</div>
 	</div>
@@ -1177,14 +1192,14 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anni 2004-2006</div>
 	</div>      
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
-	    	Tecnico volontario del Corpo Nazionale Soccorso Alpino.
+	    	Tecnico del Corpo Nazionale Soccorso Alpino.
 	    </div>
 	</div>
 
@@ -1201,15 +1216,12 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	        <ul>
-	            <li>Programmazione:<br />
-	            	<a href="http://labs.easyblog.it/">labs.easyblog.it</a><br />
+	            <li>Programmazione: <a href="http://labs.easyblog.it/">labs.easyblog.it</a><br />
 	            </li>
-	            <li>Sport:<br />
-	                Parapendio, Arrampicata, Alpinismo, Speleologia, Canyoning, DownHill, Snowboard.
+	            <li>Sports: Parapendio, Arrampicata, Speleologia, Canyoning, DownHill, Snowboard.
 	            </li>
-	            <li>Fotografia:<br />
-	            	<a href="http://easyblog.it/photos/stefano">easyblog.it/photos/stefano</a><br />
-	            </li>	            
+	            <li>Fotografia: <a href="http://easyblog.it/photos/stefano">easyblog.it/photos/stefano</a><br />
+	            </li>
 	        </ul>
 	    </div>
 	</div>
