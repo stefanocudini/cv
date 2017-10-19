@@ -7,10 +7,21 @@
     "type": "git",
     "url": "git://github.com/stefanocudini/cv.git"
   },
+  "scripts": {
+    "start": "./node_modules/live-server/live-server.js",
+    "build": "html-pdf index.html stefano-cudini-cv.pdf"
+  },
   "keywords": [
-    "map",
     "cv",
-    "developer"
+    "resume",
+    "developer",
+    "opensource",
+    "openstreetmap",
+    "web-mapping",
+    "web-gis",
+    "gis",
+    "leaflet",
+    "openlayers"
   ],
   "author": {
     "name": "Stefano Cudini",
@@ -18,5 +29,9 @@
     "url": "http://labs.easyblog.it"
   },
   "license": "MIT",
-  "homepage": "https://github.com/stefanocudini/cv"
+  "homepage": "https://github.com/stefanocudini/cv",
+  "dependencies": {
+    "html-pdf": "^2.1.0",
+    "live-server": "^1.2.0"
+  }
 }

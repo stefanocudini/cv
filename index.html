@@ -8,18 +8,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" />
 <link rel="shortcut icon" type="image/png" href="stefano-cudini_60px.png" />
 <link rel="image_src" href="stefano-cudini.png" />
-<link rel="stylesheet" href="github-light.css" />
 <style type="text/css">
 body {
-    font-family: Helvetica;
-	font-size:15px;
+   	font-family: Helvetica, Arial, sans-serif;
     color: #444;
-    background: #f0f5f6;
+    background: #fafdf7;
     margin: 0;
     padding: 0;
 }
-b { color: #666; }
-img { border: 0; }
+b {
+	color: #777;
+}
+img {
+	border: 0;
+}
 a:link,
 a:visited {
 	color: #056;
@@ -28,18 +30,16 @@ a:visited {
 a:hover {
 	text-decoration: underline;
 }
-
 h1,h2,h3 {
 	color: #056;
-	font-size: 18px;
-	margin:0;
+	font-size: 16px;
+	margin: 16px 0 0 0;
 	padding: 0;
 	font-weight: normal;
 	text-transform: uppercase;
 }
 h3 {
-	font-size: 16px;
-	text-transform: none;
+	font-size: 14px;
 }
 hr {
 	border:none;
@@ -51,86 +51,134 @@ ul {
     padding-left:1em; 
 } 
 li {
-    margin-bottom: .5em;
+    margin-bottom: .65em;
 }
 .row {
     clear: both;
     overflow: hidden;
 }
+.row.date .title,
+.row.date .contents {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 .title {
-    float: left;
-    width: 20%;
-    padding: 16px 0;
+	font-size: 12px;
+    padding: 16px 0 16px 16px;
     color: #056;
-    font-size: 11px;
-    line-height: 18px;
     vertical-align: middle;
     text-transform: uppercase;
-    text-align: right;    
+    text-align: right; 
 }
 .contents {
-    float: left;
-    min-width: 400px;
-    margin-left: -1px;
-    width: 65%;
+	font-size: 14px;
+	line-height: 16px;
     padding: 16px;
+    border-left: 1px solid #bcd;  
 }
 .sez {
-    border-bottom: 1px solid #bcd;  
+    border-right: 1px solid #bcd;  
 }
-#photo {
-	margin:0;
+#qr {
+	float: right;
 }
-#cons {
-    font-size: .85em;
-	font-style:italic;
-    text-align:right;
-    padding: .25em;
-    margin-top:2em;
-}
-#valid {
-	font-size:.85em;
-    margin-bottom: 2em;
-}
-#content {
-	margin-bottom: 2em;
-}
-#totop {
+#footer {
 	display: block;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	padding: .25em 1em;
+	padding: 10px;
     background: #f0f5f6;
-    border-top: 1px solid #9ab;
-    box-shadow: -2px 0 16px rgba(0,20,30,.30);
-    font-weight: bold;
-	text-align: right;
+    box-shadow: -2px 0 10px rgba(0,20,30,.3);
 }
 #indice {
+	font-size:.85em;
 	float: right;
 	list-style: none;
-	line-height: 16px;
 }
-#qr {
-	position: absolute;
-	right: 20px;
-	top: 20px;
+@media screen and (min-width: 480px) {
+	.title {
+		float: left;
+		width: 20%;
+		padding: 16px;
+	}
+	.contents {
+		float: left;
+		width: 70%;
+		padding: 16px;
+	}
 }
+@media screen and (max-width: 480px) {
+	h2 {
+		font-size:1.25em;
+	}
+	.title {
+		font-size: .75em;
+		padding: 8px;
+		width: 100%;
+		text-align: left;		
+	}
+	.contents {
+		clear: both;
+		padding: 8px;
+		margin-left: 16px;
+		border-left: none;
+	}
+	#indice {
+		list-style: inherit;
+		margin-left: 16px;
+		float: left;
+		line-height: 2em;
+	}
+	#photo {
+		float: left;
+		width: 100px;
+		height: 100px;
+	}
+	#qr {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}	
+}
+
 @media print {
+	body {
+		margin: 1em 2em;
+		color: #000;
+    	background: none;
+	}
+	b {
+		color: #333
+	}
     a {
+    	color: #333
         text-decoration: none;
     }
     a:link:after,
     a:visited:after {
         content:" [" attr(href) "] ";
-        font-size: small;
+        font-size: .65em;
         color:#bbb;
+        text-transform: lowercase;
     }
-    #indice,
-    #totop,
-	#valid {
+    h1 {
+    	margin: 0
+    }
+    h2 {
+    	font-size: 1.5em;
+    }
+    h3 {
+		font-size: 1em;
+	}
+	#qr,
+    #photo {
+		height: 8em;
+		width: 8em;
+	}
+	#indice,
+    #footer {
 		display:none;
 		visibility: hidden;
 	}
@@ -138,14 +186,16 @@ li {
     	page-break-inside: avoid;
     }
     .title {
+    	font-size: .7em;
     	text-align: left;
         float: left;
         width: 20%;
-        padding:0;
+        padding: .5em 0;
     }
     .title.sez {
         width: 100%;
-        margin: 1em 0 2em 0;
+        margin: 2em 0 2em 0;
+        border: none;
     }
     .contents {
         float: left;
@@ -155,10 +205,11 @@ li {
         box-shadow:none;
     }
 	@page {
-		size: 297mm 210mm;
+		size: 210mm 297mm;
 		margin: 20mm;
 	}
 }
+
 </style>
 </head>
 
@@ -197,13 +248,13 @@ li {
 	<div class="row">
 	    <div class="title">Nome e Cognome</div>
 	    <div class="contents">
-	    	<b><a href="https://plus.google.com/u/0/+StefanoCudini?rel=author">Stefano Cudini</a></b>
+	    	<b>Stefano Cudini</b>
 	    </div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Residenza</div>
-	    <div class="contents"><a href="http://osm.org/go/xdC9Ypg1-">Roma</a></div>
+	    <div class="contents">Roma</div>
 	</div>
 
 	<div class="row">
@@ -222,9 +273,10 @@ li {
 	    <div class="title">Social networks</div>
 	    <div class="contents">
 	        <a href="http://github.com/stefanocudini">Github</a><br />
-	        <a href="https://www.npmjs.com/~stefcud">Npm</a><br />
-	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap</a><br />
 	        <a href="http://stackoverflow.com/users/526444/stefanocudini">StackOverflow</a><br />
+	        <a href="http://www.openstreetmap.org/user/StefanoCudini">OpenStreetMap</a><br />
+	        <a href="https://twitter.com/zakis">Twitter</a><br />
+	        <a href="https://medium.com/@stefcud">Medium</a><br />
 	    </div>
 	</div>
 
@@ -235,7 +287,7 @@ li {
 
 	<div class="row">
 	    <div class="title">Data di nascita</div>
-	    <div class="contents">aprile 1982</div>
+	    <div class="contents">Aprile 1982</div>
 	</div>
 
 	<div class="row">
@@ -264,7 +316,7 @@ li {
 	            <li>Programmatore <b>Javascript</b>, <b>PHP</b></li>
 	            <li>Analista/Programmatore <b>sistemi Web GIS</b></li>
 	            <li>Amministratore <b>server GNU/Linux</b></li>
-	            <li><b>Frontend Developer</b></li>                
+	            <li>Frontend developer</li>
 	        </ul>
 		</div>
 	</div>
@@ -283,15 +335,15 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	        <ul>
-	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, <b>Python</b>, Bash scripting, C</li>
-	            <li>Librerie e framework: <b>jQuery</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Leaflet</b>, <b>Openlayers</b>, ExtJs, <b>RequireJS</b>, <b>Highcharts</b></li>
-	            <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, RSS</li>
+	            <li>Linguaggi: <b>Javascript</b>(client e server), <b>PHP</b>, SQL, <b>Python</b>, Bash scripting, C</li>
+	            <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML, <b>Overpass QL</b></li>
+	            <li>Librerie e framework: <b>jQuery</b>, <b>Leaflet</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Grunt</b>, <b>Openlayers</b>, ExpressJS, ExtJS, <b>RequireJS</b>, Highcharts</li>
 	            <li>Database: MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
-	            <li>Daemons:  <b>Apache</b>, Lighttpd, <b>Nginx</b>, Proftpd, Postfix, Fail2Ban</li>
+	            <li>Servizi:  <b>Nginx</b>, <b>Apache</b>, Lighttpd, Proftpd, Postfix, Fail2Ban</li>
 	            <li>Sistemi Operativi:  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
-				<li>Piattaforme:  Wordpress, Drupal, OsCommerce</li>
-	            <li>Software: <b>Geoserver</b>, <b>Qgis</b>, <b>Google Earth Engine</b>, Josm, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/">CorelDraw</a>, Inkscape, Gimp, VirtualBox</li>
-	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, <b>Grunt</b>, Firebug, Chrome console</li>
+				<li>CMS: Wordpress, Drupal</li>
+	            <li>Software: <b>Geoserver</b>, <b>Qgis</b>, <b>Gdal</b>, <b>Google Earth Engine</b>, Josm, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/">CorelDraw</a>, Inkscape, Gimp, VirtualBox</li>
+	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, Chrome DevTools, Firebug</li>
 	        </ul>
 	    </div>
 	</div>
@@ -310,15 +362,13 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	    <ul>
-			<li>
-	        	<h3><a href="http://labs.easyblog.it/">labs.easyblog.it</a></h3>
-	        	Demo di <b>applicazioni web</b>
-	    		<br /><br />
-	        </li>        
+	    	<li>
+	    		<h3><a href="http://keplerjs.io/">KeplerJs platform</a></h3>
+	    		Piattaforma di <b>geosocial networking</b> full-stack e <b>open source</b> in <b>NodeJs</b>.
+	    	</li>	    	
 	    	<li>
 	    		<h3><a href="http://mixtags.com/">Mixtags.com</a></h3>
 	    		Servizio avanzato di <b>bookmarking</b> con <b>folksonomy</b>.
-	    		<br /><br />
 	    	</li>
 	    	<li>
 	    		<h3><a href="http://labs.easyblog.it/maps/#leaflet-plugins">Leaflet Plugins</a></h3>
@@ -334,43 +384,113 @@ li {
 	    	</li>
 	    	<li>
 	    		<h3><a href="http://easyblog.it/photos/demo/">Ultra Light Gallery</a></h3>
-	    		<b>Photo Gallery</b> Wysiwyg in <b>PHP</b>/<b>jQuery</b> con <b>struttura modulare</b>.<br />
-				Oltre 30 plugins, ottimizzazioni SEO, 
-				<b>upload Ajax</b>, <b>compressione Javascript</b> automatica.
+	    		<b>Photo Gallery</b> Wysiwyg in <b>PHP</b>/<b>jQuery</b> con <b>struttura modulare</b>.
 	    	</li>	    	
 	    </ul>
 	    </div>
 	</div>
-
-	<div class="row">
-	    <div class="title">
-	        Pubblicazioni
-	    </div>
-	    <div class="contents">
-	    	<ul>
-	        	<li><a href="https://scholar.google.com.au/citations?user=3s158_wAAAAJ">Definition of REST web services with JSON schema</a></li>
-	        	<li><a href="http://easyblog.it/corso-coreldraw/">Corso di introduzione a CorelDRAW</a></li>
-	        </ul>
-	    </div>
-	</div>
-
 
 </div>
 
 <div class="cat">
 
 	<a id="esperienzepro" href="#esperienzepro"></a>
+
 	<div class="row">
 	    <div class="title sez">
 			<h2>Esperienza professionale</h2>
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Settembre 2014 ad Oggi</div>
+	    <div class="contents">Luglio 2016 - Gennaio 2017</div>
 	</div>
 
+	<div class="row">
+	    <div class="title">Posizione</div>
+	    <div class="contents">
+	    	<p>
+	    		Programmatore Javascript/Python e amministratore di sistema. Progettazione e implementazione di varie <b>piattaforme Web GIS</b> con utilizzo di tecnologie open source e <b>remote sensing</b> data.
+	            Implementazione di componenti per <b>web-mapping</b> in <b>LeafletJS</b> con specifiche <b>AMD</b>(Asynchronous module definition) e ottimizzazione dei front-end con <b>Webpack</b>.
+				
+	            Configurazione/amministrazione delle istanze <b>GeoServer</b> e <b>PostgreSQL</b> di test e produzione.
+	        </p>
+	        <ul>
+	        	<li>
+	        		<p>
+	        			<h3>Crowd Prices</h3>
+						Sistema di monitoraggio real-time dei prezzi acquisiti in crowdsourcing nei mercati di alcuni paesi dell'Africa
+					</p>
+	            	<a href="http://fenixapps2.fao.org/crowddata/">User Interface</a>, 
+	            	<a href="http://fenix.fao.org/demo/crowdprices-web/">Sources</a>
+				</li>
+	            <li>
+	            	<p>
+	            		<h3>Global Land Use Trends Portal</h3>
+	            		Progetto di pubblicazione dati di <b>crowdsourcing</b> su Web GIS per <b>FAO Forestry Department</b>.
+	            		<br />
+	            		Elaborazione dati <b>NDVI</b> ed altre sorgenti dati puntuali.
+	            		<br />
+	            		Elaborazione e pubblicazione dati con utilizzo di <a href="https://earthengine.google.com/">Google Earth Engine</a>.
+	            		<br />
+	            		Postprocessamento(Tassellatura di Voronoi) e pubblicazione su servizi WMS in <b>Geoserver</b>.
+	            	</p>
+	            	<a href="http://fenixrepo.fao.org/cdn/js/glt/">User Interface</a><br />
+	            </li>
+	            <li>
+	            	<p>
+	            		<h3>The Near East and North Africa (NENA) region</h3>
+	            		Monitoraggio e calcolo di alcuni parametri ambientali: precipitazioni, temperatura, evapotraspirazione, indice vegetazione<br />
+	            		Utilizzo e sviluppo del framework opensource <a href="https://github.com/geobricks">Geobricks</a> in Python per acquisizione e post processamento di dati NASA.
+	            	</p>
+	            	<a href="http://fenix.fao.org/demo/nena/">User Interface</a>, 
+	            	<a href="https://github.com/FENIX-Platform-Projects/nena-ui">Sources</a>,
+	            	<a href="https://github.com/FENIX-Platform-Projects/nena-regions">Python scripts</a>
+	            </li>
+	            <li>
+            		<p>
+            			<h3>Economic Cooperation Organization (ECO) countries</h3>
+            			Monitoraggio di flussi di import/export di merci tra i paesi della ECO<br />
+            			Utilizzo e sviluppo del <a href="https://github.com/FENIX-Platform/fenix-ui-map/graphs/contributors">componente mappa</a> del framework <a href="https://github.com/feNIX-Platform">Fenix</a>.
+            		</p>
+	            	<a href="http://fenix.fao.org/demo/eco-trade-ui/">User Interface</a>, 
+	            	<a href="https://github.com/FENIX-Platform-Projects/eco-trade-ui">Sources</a>
+				</li>
+				<li>
+					<h3>Altri Progetti:</h3>
+					<a href="https://en.wikipedia.org/wiki/CountrySTAT">CountrySTAT Platform</a> <br />
+					<a href="http://www.amis-outlook.org/">AMIS (Agricultural Market Information System)</a><br />
+					<a href="https://en.wikipedia.org/wiki/FAO_ADAM">ADAM (Agricultural Development Assistance Mapping)</a><br />
+				</li>
+	        </ul>
+	    </div>
+	</div>
+
+	<div class="row">
+	    <div class="title">Datore di lavoro</div>
+	    <div class="contents">
+	    Information Technology Division (CIO)<br />
+	    Food and Agriculture Organization (FAO)<br />
+	    <br />
+	    Viale delle Terme di Caracalla, Roma<br />
+	    www.fao.org
+	</div>
+
+</div>
+
+<div class="cat">
+
+	<div class="row">
+	    <div class="title sez">
+			<h2>Esperienza professionale</h2>
+	    </div>
+	</div>
+
+	<div class="row date">
+	    <div class="title">Date</div>
+	    <div class="contents">Settembre 2014 - Luglio 2016</div>
+	</div>
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
@@ -379,12 +499,21 @@ li {
 	            	<a href="http://fenix.fao.org/">fenix.fao.org</a><br />
 	            	<a href="https://github.com/fenix-platform/">Fenix Platform on Github.com</a>
 	            </li>
-				<li>Programmatore Javascript, amministratore di sistema:<br />
-	            	<a href="http://africafertilizer.org/">www.africafertilizer.org</a>
+				<li>Programmatore Javascript, database manager:<br />
+	            	<a href="http://africafertilizer.org/">Africafertilizer.org</a>
 	            </li>	            
 	            <li>Progettazione e programmazione <b>Javascript</b> con specifiche <b>AMD</b> per la piattaforma <a href="http://fenix.fao.org/"><b>Fenix Platform</b></a></li>
 				<li>Programmazione componenti per <b>Web Mapping</b> con <b>LeafletJS</b></li>
-				<li>Design e programmazione data entry con tecnologia <b>JSON SCHEMA</b></li>
+				
+				<li>
+					Progettazione e programmazione data entry con tecnologia <b>JSON SCHEMA</b>
+					<br />
+					Database manager su <b>MongoDB</b> e PostgreSQL
+					<a href="https://github.com/FENIX-Platform-Projects/fmd-ui">
+						Global Foot and Mouth Disease Control Strategy Report Questionnaire
+					</a>
+				</li>
+
 	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, su OS Linux <b>Red Hat Enterprise</b></li>
 	            <li>Gestione database <b>PostgreSQL</b>, <b>MongoDB</b></li>
 	        </ul>
@@ -392,14 +521,19 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
-	    Food and Agriculture Organization (FAO)<br />
+	    
+	    
 	    Statistics Division (ESS)<br />
+	    Economic and Social Development Department<br />
+	    Food and Agriculture Organization (FAO)<br />
+	    
+	    <br />
 	    Viale delle Terme di Caracalla, Roma<br />
 	    www.fao.org<br />
-	    fenix.fao.org<br />
-	    faostat3.fao.org</div>
+	    www.fao.org/economic/ess<br />
+	    fenix.fao.org
 	</div>
 
 </div>
@@ -412,32 +546,33 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Giugno 2014 - Agosto 2014</div>
+	    <div class="contents">Maggio 2014 - Settembre 2014</div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
 	        <ul>
-	            <li>Amministratore di sistema, programmatore Javascript, Grafico per la web app:<br />
+	            <li>Amministratore di sistema, programmatore Javascript per la web app:<br />
 	            	<a href="http://www.openmove.com/#company">www.openmove.com</a>
 	            </li>
 	            <li>Configurazione/<b>amministrazione server</b> della piattaforma, con <b>OS Debian GNU/Linux</b></li>
 	            <li>Progettazione e programmazione <b>Javascript NodeJS</b> su framework <a href="https://www.meteor.com/"><b>MeteorJs</b></a></li>
-	            <li>Gestione Design database <b>MongoDB</b></li>
-	            <li>Design parti grafiche</li>
+	            <li>Gestione e disegno database <b>MongoDB</b></li>
 	            <li>Personalizzazione del layout e integrazione con <b>Bootstrap</b></li>
+	            <li>Creazione parti grafiche</li>
 	        </ul>
 	    </div>
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
-	    <div class="contents">Libon S.r.l.<br />
+	    <div class="title">Datore di lavoro</div>
+	    <div class="contents">Lucian S.r.l.<br />
+	    <br />
 	    Via della Lasta, 12 38065 Mori, Trento<br />
-	    www.libonsport.com</div>
+	    www.openmove.com</div>
 	</div>
 
 </div>
@@ -450,7 +585,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Agosto 2013 - Gennaio 2014</div>
 	</div>
@@ -475,8 +610,9 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">Bibbiani Macchine Agricole<br />
+	    <br />
 	    www.agrisystema.com</div>
 	</div>
 
@@ -490,7 +626,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2012 - Gennaio 2013</div>
 	</div>
@@ -516,8 +652,9 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">GeoSolutions s.a.s.<br />
+	    <br />
 	    Via Poggio alle Viti 1187, Massarosa, Lucca<br />
 	    www.geo-solutions.it</div>
 	</div>
@@ -532,7 +669,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Dicembre 2011 - Febbraio 2012</div>
 	</div>
@@ -551,8 +688,9 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
-	    <div class="contents">Webel Soluzioni informatiche<br />
+	    <div class="title">Datore di lavoro</div>
+	    <div class="contents">Webel<br />
+	    <br />
 	    Via valle cupa 8, Viterbo<br />
 	    www.webel.it</div>
 	</div>
@@ -567,7 +705,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Febbraio 2010 - Luglio 2010</div>
 	</div>
@@ -585,26 +723,27 @@ li {
 				</li>
 				<li>
 				Bilanci Comunali per le regioni Toscana, Lombardia e Piemonte:<br />
-				<a href="http://labs.easyblog.it/portfolio/ires/Bilanci_Toscana/">Bilanci_Toscana</a><br />
+				<a href="http://labs.easyblog.it/portfolio/ires/Bilanci_Toscana/">portfolio/ires/Bilanci_Toscana</a><br />
 				</li>
 				<li>
 				Dati Socio Demografici per le regioni Lombardia e Piemonte:<br />
-				<a href="http://labs.easyblog.it/portfolio/ires/Bilanci_Lomb_2010_X/dati_demografici/">Dati demografici</a>
+				<a href="http://labs.easyblog.it/portfolio/ires/Bilanci_Lomb_2010_X/dati_demografici/">portfolio/ires/Dati demografici</a>
 				</li>
 				<li>Banca dati Convenzioni per Auser Filo d'Argento:<br />
-				<a href="http://labs.easyblog.it/portfolio/ires/Auser_Convenzioni_2010/">Auser Convenzioni</a>
+				<a href="http://labs.easyblog.it/portfolio/ires/Auser_Convenzioni_2010/">portfolio/ires/Auser Convenzioni</a>
 				</li>
 				<li>Design del layout del portale:<br />
-				<a href="http://labs.easyblog.it/portfolio/ires/homepage3/">Homepage portale</a>
+				<a href="http://labs.easyblog.it/portfolio/ires/homepage3/">portfolio/ires/Homepage portale</a>
 				</li>
 	        </ul>
 	    </div>
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	        Associazione IRES Lucia Morosini<br />
+	        <br />
 	        Via Carlo Pedrotti 5, Torino<br />
 	        www.iresluciamorosini.it
 	    </div>
@@ -620,7 +759,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Febbraio 2008 - Maggio 2008</div>
 	</div>
@@ -641,9 +780,10 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
+	    <div class="title">Datore di lavoro</div>
 	    <div class="contents">
 	        NetAddiction s.r.l.<br />
+	        <br />
 	        Via Archiemede 19, Terni<br />
 	        www.movieplayer.it
 	    </div>
@@ -659,7 +799,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Dicembre 2007 - Aprile 2008</div>
 	</div>
@@ -678,8 +818,10 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
-	    <div class="contents">E-volving, business integration<br />
+	    <div class="title">Datore di lavoro</div>
+	    <div class="contents">
+	    	E-volving, business integration<br />
+	    	<br />
 	        Via del Maglio 6, Terni<br />
 	        www.e-volving.it<br />
 		</div>
@@ -695,7 +837,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Aprile 2006 - Febbraio 2007</div>
 	</div>
@@ -704,7 +846,7 @@ li {
 	    <div class="title">Posizione</div>
 	    <div class="contents">
 	        <ul>
-	            <li><b>Programmatore PHP/MySQL</b> del portale e di siti minori: <br />
+	            <li><b>Programmatore PHP/MySQL</b> del portale e del network: <br />
 	            	<a href="http://www.multiplayer.it">www.multiplayer.it</a>
 	        	</li>
 	            <li>Ottimizzazione e ottimizzazione del codice php nelle piu
@@ -736,8 +878,10 @@ li {
 	</div>
 
 	<div class="row">
-	    <div class="title">Nome e indirizzo del datore di lavoro</div>
-	    <div class="contents">NetAddiction s.r.l.<br />
+	    <div class="title">Datore di lavoro</div>
+	    <div class="contents">
+	    	NetAddiction s.r.l.<br />
+	    	<br />
 	        Via Archiemede, 19 Terni<br />
 	        www.multiplayer.it<br />
 	        www.multiplayer.com
@@ -759,32 +903,49 @@ li {
 	<div class="row">
 	    <div class="title"></div>
 	    <div class="contents">
-	    	<b>Ungiro.it</b> piattaforma di condivisione percorsi cicloturistici:<br />
+	        <b>Ammappalitalia</b> - percorsi e tracciati da paese a paese
+	        <br /><a href="http://www.ammappalitalia.it/">www.ammappalitalia.it</a>
+	        <br />
+	        <br />
+	        <ul>
+	        	<li>Programmazione Javascript e PHP</li>
+
+	            <li>Implementazione del sistema di <b>web mapping</b> utilizzato per la visualizzazione dei percorsi</li>
+
+	            <li>Sistema di pubblicazione <b>real-time</b> di dati geospaziali</li>
+	        </ul>
+	    </div>
+	</div>
+
+	<div class="row">
+	    <div class="title"></div>
+	    <div class="contents">
+	    	<b>Ungiro.it</b> - piattaforma di condivisione percorsi cicloturistici:<br />
 	    	<a href="http://www.ungiro.it/">www.ungiro.it</a>
 	    	<br />
 	    	<br />
 	    	<ul>
 	        	<li>Programmazione Javascript <a href="http://goo.gl/pO9yVt">sistema di Web Mapping</a> con <b>LeafletJS</b></li>
-	        	<li>Condivisione di <b>tracciati GPX</b></li>
-	        	<li>Ricerca di luoghi su sorgente dati <a href="http://osm.org/">OpenStreetMap</a></li>
-	            <li>Ottimizzazione per la <b>gestione dei POI</b> (Place Of Interest)</li>
+	        	<li>Web-mapping embedding di <b>tracciati GPX</b></li>
+	        	<li>Geocoding su sorgente dati <a href="http://osm.org/">OpenStreetMap</a></li>
+	            <li>Implementazione interfaccia per la <b>gestione dei POI</b> (Place Of Interest)</li>
 	        </ul>
 	    </div>
 	</div>
 	<div class="row">
 	    <div class="title"></div>
 	    <div class="contents">
-	        <b>Abramomax</b> Immobiliare:<br />
+	        <b>Abramomax</b> - immobiliare<br />
 	        <a href="http://www.societaimmobiliari.net/abramomax-spa-orbetello/">www.abramomax.it</a>
 	        <br />
 	        <br />
 	        <ul>
 	            <li>Webdesigner, Grafico</li>
 	            <li>Creazione del <b>layout</b> del portale:<br />
-	            	<a href="http://labs.easyblog.it/portfolio/abramomax.it/">portfolio/abramomax.it/</a>
+	            	<a href="http://labs.easyblog.it/portfolio/abramomax.it/">portfolio/abramomax</a>
 	            </li>
 	            <li>Grafica del logo aziendale:<br />
-	            	<a href="http://labs.easyblog.it/portfolio/abramomax.it/_logo/loghi_proto.jpg">portfolio/abramomax.it/logo</a>
+	            	<a href="http://labs.easyblog.it/portfolio/abramomax.it/_logo/loghi_proto.jpg">portfolio/abramomax/logo</a>
 	            </li>
 	        </ul>
 	    </div>
@@ -814,28 +975,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
-	    <div class="title">Date</div>
-	    <div class="contents">Ottobre 2013</div>
-	</div>
-
-	<div class="row">
-	    <div class="title">Posizione</div>
-	    <div class="contents">
-	        Ammappalitalia, Percorsi e tracciati da paese a paese: <a href="http://www.ammappalitalia.it/">www.ammappalitalia.it</a>
-	        <br />
-	        <br />
-	        <ul>
-	        	<li>Programmazione Javascript e PHP</li>
-
-	            <li>Implementazione del sistema di <b>web mapping</b> utilizzato per la visualizzazione dei percorsi</li>
-
-	            <li>Sistema di pubblicazione <b>real time</b> di percorsi associati ad eventi con tecnologie <b>html5</b></li>
-	        </ul>
-	    </div>
-	</div>
-
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2005</div>
 	</div>
@@ -843,11 +983,15 @@ li {
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
-	        La Siviera Officina Sociale: <a href="http://www.lasiviera.cesvol.net/">www.lasiviera.cesvol.net</a>
+	        <b>La Siviera</b> - officina sociale
+	        <br />
+	        www.lasiviera.cesvol.net
 	        <br />
 	        <br />
 	        <ul>
-	            <li>Vincitore del bando di concorso per la realizzazione del <b>portale web</b> <a href="http://www.cesvol.net/">CESVOL</a></li>
+	            <li>Vincitore del bando di concorso per la realizzazione del <b>portale web</b> 
+	            <br />
+	            indetto<a href="http://www.cesvol.it/">Centro Servizi per il Volontariato</a> della provincia di Terni</li>
 
 	            <li>Progettazione, sviluppo del <b>cms</b> e realizzazione completa
 	            della grafica</li>
@@ -861,7 +1005,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Marzo 2003</div>
 	</div>
@@ -869,11 +1013,19 @@ li {
 	<div class="row">
 	    <div class="title">Posizione</div>
 
-	    <div class="contents">Webdesign in Flash del portale della Facolta' di Ingegneria Informatica sede di Orvieto:<br />
-	    <a href="http://labs.easyblog.it/portfolio/uniorvieto">Uniorvieto</a></div>
+	    <div class="contents">
+			<b>Portale web</b> - facolta' di ingegneria informatica UniPG<br />
+			sede distaccata Centro Studi "Città di Orvieto"<br />
+			<a href="http://labs.easyblog.it/portfolio/uniorvieto">portfolio/UniOrvieto</a>
+			<br /><br />
+		    <ul>
+		        <li>Webdesigner</li>
+		        <li>Programmatore PHP/Flash</li>
+		    </ul>
+	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">2001</div>
 	</div>
@@ -882,9 +1034,9 @@ li {
 	    <div class="title">Posizione</div>
 
 	    <div class="contents">
-			<a href="http://labs.easyblog.it/portfolio/utec">
+			<!--a href="http://labs.easyblog.it/portfolio/utec"-->
 			Gruppo Speleologico UTEC Narni
-			</a>
+			<!--/a-->
 	        <br />
 	        <br />
 	        <ul>
@@ -894,15 +1046,15 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">1998</div>
 	</div>
 
 	<div class="row">
-	    <div class="title"></div>
+	    <div class="title">Posizione</div>
 	    <div class="contents">
-	    	Primo sito web personale<br />
+	    	Webmaster, primo sito web personale<br />
 	        <ul>
 	            <li><a href="http://spazioinwind.libero.it/spelex/">www.spelex.cjb.net</a></li>
 	        </ul>
@@ -919,13 +1071,13 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Luglio 2001</div>
 	</div>
 
 	<div class="row">
-	    <div class="title">Titolo della qualifica rilasciata</div>
+	    <div class="title"></div>
 	    <div class="contents">Diploma di Maturita' conseguito all' Istituto
 	    Tecnico<br />
 	    Industriale Statale L.Allievi di Terni, in "Perito Industriale
@@ -933,18 +1085,34 @@ li {
 	    Elettrotecnico: specializzato in Automazione"<br /></div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Settembre 2001</div>
 	</div>
 
 	<div class="row">
 	    <div class="title"></div>
-	    <div class="contents">Iscritto all'universita'  degli studi di Perugia nel
+	    <div class="contents">Iscritto all'universita' degli studi di Perugia nel
 	    Corso<br />
 	    di Laurea in Ingegneria Informatica e delle Telecomunicazioni, sede di
 	    Orvieto.<br />
-	    Conseguiti tutti gli esami riguardo programmazione e reti
+	    Conseguiti tutti gli esami riguardo programmazione e reti.<br />
+	    </div>
+	</div>
+
+	<div class="row">
+	    <div class="title">
+	        Pubblicazioni
+	    </div>
+	    <div class="contents">
+	    	<ul>
+	        	<li>Articolo <i>"Definition of REST web services with JSON schema"</i>
+	        	<br />
+	        	<a href="https://www.researchgate.net/scientific-contributions/2120105206_Stefano_Cudini">Researchgate</a>, 
+				<a href="https://scholar.google.com.au/citations?user=3s158_wAAAAJ">Google Scholar</a>
+			</li>
+	        	<li>Corso online <i><a href="http://easyblog.it/corso-coreldraw/">Introduzione a CorelDRAW in 20 lezioni</a></i></li>
+	        </ul>
 	    </div>
 	</div>
 
@@ -961,7 +1129,7 @@ li {
 
 	<div class="row">
 	    <div class="title">Altre lingue</div>
-	    <div class="contents">inglese (ottima comprensione scritto/letto)</div>
+	    <div class="contents">Inglese</div>
 	</div>
 
 </div>
@@ -974,7 +1142,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2015</div>
 	</div>
@@ -986,7 +1154,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2006</div>
 	</div>
@@ -998,7 +1166,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2007</div>
 	</div>
@@ -1013,7 +1181,7 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anno 2008</div>
 	</div>
@@ -1024,14 +1192,14 @@ li {
 	    </div>
 	</div>
 
-	<div class="row">
+	<div class="row date">
 	    <div class="title">Date</div>
 	    <div class="contents">Anni 2004-2006</div>
 	</div>      
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
-	    	Tecnico volontario del Corpo Nazionale Soccorso Alpino.
+	    	Tecnico del Corpo Nazionale Soccorso Alpino.
 	    </div>
 	</div>
 
@@ -1048,14 +1216,14 @@ li {
 	    <div class="title"></div>
 	    <div class="contents">
 	        <ul>
-	            <li>Programmazione:<br />
-	            	<a href="http://labs.easyblog.it/">labs.easyblog.it</a><br />
+	            <li>
+	            	Programmazione: <a href="http://labs.easyblog.it/">labs.easyblog.it</a>
 	            </li>
-	            <li>Fotografia:<br />
-	            	<a href="http://easyblog.it/photos/stefano">easyblog.it/photos/stefano</a><br />
+	            <li>
+	            	Sports: Parapendio, Arrampicata, Speleologia, Canyoning, DownHill, Snowboard.
 	            </li>
-	            <li>Sport:<br />
-	                Parapendio, Arrampicata, Canyoning, Slackline, Speleologia, Alpinismo, Trekking, DownHill, Rollerblade.
+	            <li>
+	            	Fotografia: <a href="http://easyblog.it/photos/stefano">easyblog.it/photos/stefano</a>
 	            </li>
 	        </ul>
 	    </div>
@@ -1067,7 +1235,7 @@ li {
 	    </div>
 	    <div class="contents">
 	    	<ul>
-		        <li><a href="http://easyblog.it/photos/stefano/libri/">Libri in biblioteca</a></li>
+		        <li><a href="http://www.anobii.com/stefanocudini/profile#books_library">Libri in biblioteca</a></li>
 		        <li><a href="http://www.anobii.com/stefanocudini/books">Anobii.com</a>, <a href="http://www.scribd.com/zakis_">Scribd.com</a></li>	        
 	        </ul>
 	    </div>
@@ -1077,20 +1245,22 @@ li {
 	    <div class="title">
 	    </div>
 	    <div class="contents">
-		    <small>AI senti della legge 196/03 e successive modifiche
+		    <small>Ai senti della legge 196/03 e successive modifiche
 		    autorizzo il trattamento dei miei dati personali contenuti in questo
 		    curriculum
 		    </small>
-		    <br /><br />
-		    <div id="valid">
-			    	<a href="http://validator.w3.org/check?uri=referer">[Valid XHTML]</a> 
-		    </div>
+		    <br /><br /><br />
 	    </div>
 	</div>
 </div> 
 
-<div id="totop">
-	<a href="#top">Indice</a>
+<div id="footer">
+	<a id="totop" href="#top">Indice</a>
+	<div style="float: right;">
+		<a id="pdf" href="stefano-cudini-cv.pdf">PDF Version</a> 
+			&nbsp;&bull;&nbsp;
+		<a id="valid" href="http://validator.w3.org/check?uri=referer">XHTML Valid</a>
+	</div>
 </div>
 
 <script type="text/javascript">
