@@ -7,19 +7,16 @@
     "type": "git",
     "url": "git://github.com/stefanocudini/cv.git"
   },
-  "scripts": {
-    "start": "./node_modules/live-server/live-server.js",
-    "build": "html-pdf index.html stefano-cudini-cv.pdf"
-  },
   "keywords": [
     "cv",
     "gis",
+    "maps",
+    "linux",
     "resume",
-    "web-gis",
     "leaflet",
+    "meteorjs",
     "developer",
-    "openlayers",
-    "opensource",
+    "javascript",
     "web-mapping",
     "openstreetmap"
   ],
@@ -28,8 +25,12 @@
     "email": "stefano.cudini@gmail.com",
     "url": "http://labs.easyblog.it"
   },
-  "license": "MIT",
   "homepage": "https://github.com/stefanocudini/cv",
+  "license": "CC BY-SA 3.0",
+  "scripts": {
+    "start": "./node_modules/live-server/live-server.js",
+    "build": "html-pdf index.html stefano-cudini-cv.pdf"
+  },
   "dependencies": {
     "html-pdf": "^2.1.0",
     "live-server": "^1.2.0"
