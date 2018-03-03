@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "html-pdf index.html stefano-cudini-cv.pdf"
-  },  
+  },
   "keywords": [
     "cv",
     "developer",
