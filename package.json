@@ -32,7 +32,7 @@
     "build": "html-pdf index.html stefano-cudini-cv.pdf"
   },
   "dependencies": {
-    "html-pdf": "^2.1.0",
-    "live-server": "^1.2.0"
+    "html-pdf": "^2.2.0",
+    "live-server": "^1.2.1"
   }
 }
