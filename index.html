@@ -6,7 +6,7 @@
 	allora vuol dire che sei qualcuno molto attento ai dettagli.
 	Contattami subito se hai proposte di lavoro o di collaborazione
 	a progetti open source!
----
+
 	If you are viewing the source code of this page
 	then it means that you are someone very attentive to details.
 	Contact me now if you have any job or collaboration proposals
@@ -21,7 +21,8 @@
 	<link rel="image_src" href="stefano-cudini.png" />
 	<style>
 		body {
-		   	font-family: Didot, Helvetica, Arial, sans-serif 14px;
+		   	font-family: Didot, Helvetica, Arial;
+		   	font-size: 14px;
 		    color: #444;
 		    background: #fafdf7;
 		    margin: 0;
@@ -161,11 +162,13 @@
 		}
 
 		@media print {
+			html, body {
+				font-size: 6px;
+			}
 			body {
 				margin: 1cm;
 				color: #000;
-		    	background: none;
-		   		font-size: 10px;    	
+		    	background: none; 	
 			}
 			b {
 				color: #333;
@@ -177,7 +180,7 @@
 		    a:link:after,
 		    a:visited:after {
 		        content:" [" attr(href) "] ";
-		        font-size: .65em;
+		     
 		        color:#ddd;
 		        text-transform: lowercase;
 		    }
@@ -185,11 +188,9 @@
 		    	margin: 0
 		    }
 		    h2 {
-		    	font-size: 2.2em;
 		    	margin: 0 auto;
 		    }
 		    h3 {
-				font-size: 1em;
 			}
 			#qr,
 		    #photo {
@@ -205,7 +206,6 @@
 		    	page-break-inside: avoid;
 		    }
 		    .title {
-		    	font-size: 1em;
 		    	text-align: left;
 		        float: left;
 		        width: 15%;
@@ -369,11 +369,11 @@
 	            <li>Linguaggi di Markup:  XHTML, <b>HTML5</b>, <b>CSS3</b>, XML</li>
 	            <li>Librerie e framework: <b>jQuery</b>, <b>Leaflet</b>, <b>NodeJs</b>, <b>MeteorJs</b>, Bootstrap, <b>Grunt</b>, <b>Openlayers</b>, ExpressJS, ExtJS, D3, <b>RequireJS</b>, Highcharts</li>
 	            <li>Database: MySQL, <b>MongoDB</b>, Postgresql/<b>Postgis</b>, Sqlite</li>
-	            <li>Servizi:  <b>Nginx</b>, <b>Apache</b>, Lighttpd, PHP-FPM, Postfix, Exim4, Fail2Ban</li>
-	            <li>Sistemi Operativi:  Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
+	            <li>Servizi: <b>Docker</b>, <b>Nginx</b>, Lighttpd, <b>Apache</b>, PHP-FPM, Postfix, Exim4, Fail2Ban</li>
 	            <li>Software: <b>Geoserver</b>, <b>Qgis</b>, <b>Gdal</b>, <b>Google Earth Engine</b>, Josm, AutoCAD, <a href="http://easyblog.it/corso-coreldraw/">CorelDraw</a>, Inkscape, Gimp, VirtualBox</li>
 	            <li>Tools di sviluppo: <b>Git</b>, Mercurial, SublimeText, <b>Npm</b>, Chrome DevTools, Firebug</li>
 	            <li>CMS: Wordpress, Drupal</li>
+	            <li>Sistemi Operativi: Ottime conoscenze di <b>Debian</b> GNU/Linux <b>Server</b>, Ubuntu Desktop, Windows XP </li>
 	        </ul>
 	    </div>
 	</div>
@@ -430,16 +430,33 @@
 
 	<div class="row date">
 	    <div class="title">Date</div>
-	    <div class="contents">Gennaio 2019 - Presente</div>
+	    <div class="contents">Gennaio 2019 - Dicembre 2020</div>
 	</div>
 
 	<div class="row">
 	    <div class="title">Posizione</div>
 	    <div class="contents">
 			<p>
-				Contratto dipendente 4&deg; livello, programmatore <b>geospatial</b> e <b>data visualization</b><br />
+				Contratto dipendente, programmatore <b>geospatial</b> e <b>data visualization</b><br />
 				
+				Tutto il codice e' stato sviluppato sotto licenze <b>open source</b>: 
+				<a href="https://github.com/DigitalCommonsLab">DigitalCommonsLab Github</a>
 			</p>
+	        <ul>
+	            <li>
+					Istanza personalizzata del <b>geocoder</b> open source <a href="https://pelias.io/" target="_blank">Pelias</a> su piattaforma <b>Docker</b>,
+					<br />
+					integrato con <b>Elasticsearch</b> per la ricerca di numeri civici, strade e punti di interesse provenienti da OpenStreetMap.
+					<br />
+					<a href="https://github.com/DigitalCommonsLab/docker">Sources</a>
+				</li>
+				<li>
+					Sviluppo di importer Pelias per numeri civici e strade da sorgenti Open Data di alcune amministrazioni locali del Trentino Alto Adige.
+					<br />
+					<a href="https://github.com/DigitalCommonsLab/pelias-importer-trentino-opendata">Sources</a>
+				</li>
+
+	    	</ul>
 	    </div>
 	</div>
 	<div class="row">
@@ -481,7 +498,7 @@
 	    <div class="title">Posizione</div>
 	    <div class="contents">
 			<p>
-				Contratto dipendente 4&deg; livello, programmatore <b>geospatial</b> e <b>data visualization</b><br />
+				Contratto dipendente, programmatore <b>geospatial</b> e <b>data visualization</b><br />
 				Progettazione e implementazione di componenti <b>Web GIS</b> con utilizzo di dati <b>OpenStreetMap</b> ed altre sorgenti <b>opendata</b>.<br />
 				Implementazione di moduli di visualizzazione dati interattivi basati su <b>D3js</b>(Data-Driven Documents).
 				<br />
