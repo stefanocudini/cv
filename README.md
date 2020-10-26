@@ -17,17 +17,10 @@ Gestisce ed e' attivo su vari progetti open source conosciuti in ambito geospati
 ## Contacts
 
 [Github](https://github.com/stefanocudini)
-
 [StackOverflow](https://stackoverflow.com/users/526444/stefanocudini)
-
 [OpenStreetMap](https://osm.org/user/StefanoCudini)
-
 [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ)
-
 [Medium](https://medium.com/@stefcud)
-
 [Keybase](https://keybase.io/stefcud)
-
 [Reddit](https://reddit.com/user/stefcud)
-
 [Twitter](https://twitter.com/zakis)
