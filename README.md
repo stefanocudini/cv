@@ -1,6 +1,4 @@
-# Stefano Cudini - Curriculum Vitae
-
-**Open Source Developer**
+# Stefano Cudini - Open Source Developer
 
 *EN*: Software developer since 2006 he has worked in various fields mainly
 on Web-oriented technologies, specializing in recent years in Geospatial solutions
