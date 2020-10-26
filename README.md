@@ -12,6 +12,5 @@ It manages and is active on various open source projects known in the geospatial
 - [OpenStreetMap](https://osm.org/user/StefanoCudini)
 - [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ)
 - [Medium](https://medium.com/@stefcud)
-- [Keybase](https://keybase.io/stefcud)
 - [Reddit](https://reddit.com/user/stefcud)
 - [Twitter](https://twitter.com/zakis)
