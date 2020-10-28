@@ -11,6 +11,6 @@ It manages and is active on various open source projects known in the geospatial
 [StackOverflow](https://stackoverflow.com/users/526444/stefanocudini) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
 [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) | 
-[Medium](https://medium.com/@stefcud) | 
 [Reddit](https://reddit.com/user/stefcud) | 
+[Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
