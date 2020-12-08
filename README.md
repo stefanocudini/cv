@@ -15,6 +15,4 @@ It manages and is active on various open source projects known in the geospatial
 [Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
 
-## Bio
-
 [Resume](http://stefanocudini.github.io/stefanocudini/)
