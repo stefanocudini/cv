@@ -5,7 +5,7 @@ on Web-oriented technologies, specializing in recent years in Geospatial solutio
 such as WebGis, Geocoding, Routing Engines, Vehicle Routing Problem and advanced WebMapping systems.
 It manages and is active on various open source projects known in the geospatial field, such as KeplerJs.io, LeafletJs.com and OpenStreetMap.org
 
-## Contacts
+## Links
 
 [Github](https://github.com/stefanocudini) | 
 [StackOverflow](https://stackoverflow.com/users/526444/stefanocudini) | 
@@ -14,5 +14,7 @@ It manages and is active on various open source projects known in the geospatial
 [Reddit](https://reddit.com/user/stefcud) | 
 [Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
+
+## Bio
 
 [Resume](http://stefanocudini.github.io/stefanocudini/)
