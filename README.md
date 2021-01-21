@@ -20,4 +20,4 @@ It manages and is active on various open source projects known in the geospatial
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stefanocudini&layout=compact&theme=graywhite)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stefanocudini&layout=compact&hide_border=true&theme=graywhite)](https://github.com/anuraghazra/github-readme-stats)
