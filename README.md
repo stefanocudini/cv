@@ -16,3 +16,8 @@ It manages and is active on various open source projects known in the geospatial
 [Twitter](https://twitter.com/zakis)
 
 [Resume](http://stefanocudini.github.io/stefanocudini/)
+
+
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stefanocudini&layout=compact&theme=graywhite)](https://github.com/anuraghazra/github-readme-stats)
