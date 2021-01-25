@@ -3,7 +3,7 @@
 Professional Software developer since 2006 he has worked in various fields mainly
 on Web-oriented technologies, specializing in recent years in Geospatial solutions
 such as WebGis, Geocoding, Routing Engines, Vehicle Routing Problem and advanced WebMapping systems.
-It manages and is active on various open source projects known in the geospatial field, such as KeplerJs.io, LeafletJs.com and OpenStreetMap.org
+It manages and is active on various open source projects known in the geospatial field, such as KeplerJs.io, LeafletJs.com, Pelias.io and OpenStreetMap.org
 
 ## Links
 
