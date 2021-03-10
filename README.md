@@ -13,6 +13,6 @@ It manages and is active on various open source projects known in the geospatial
 [Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
 
-[Resume](http://stefanocudini.github.io/stefanocudini/)
+[Online Resume](http://stefanocudini.github.io/stefanocudini/)
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
