@@ -1,4 +1,4 @@
-# Stefano Cudini - Open Source Developer
+# Stefano Cudini - Geospatial Open Source Developer
 
 Professional Software developer since 2006 he has worked in various fields mainly
 on Web-oriented technologies, specializing in recent years in Geospatial solutions
