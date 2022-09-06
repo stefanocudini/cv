@@ -11,10 +11,9 @@ It manages and is active on various open source projects known in the geospatial
 [StackOverflow](https://stackoverflow.com/users/526444/stefanocudini) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
 [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) | 
-[Reddit](https://reddit.com/user/stefcud) | 
 [Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
 
 [Online Resume](http://stefanocudini.github.io/stefanocudini/)
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
+![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
