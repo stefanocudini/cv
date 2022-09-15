@@ -7,11 +7,11 @@ It manages and is active on various open source projects known in the geospatial
 
 [Website opengeo.tech](https://opengeo.tech/)
 
-[Github](https://github.com/stefanocudini) | 
 [StackOverflow](https://stackoverflow.com/users/526444/stefanocudini) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
 [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) | 
 [Medium](https://medium.com/@stefcud) | 
+[Reddit](https://www.reddit.com/user/stefcud) | 
 [Twitter](https://twitter.com/zakis)
 
 [Online Resume](http://stefanocudini.github.io/stefanocudini/)
