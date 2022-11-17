@@ -15,15 +15,15 @@ Social:
 [Medium](https://medium.com/@stefcud) | 
 [Twitter](https://twitter.com/zakis)
 
-Leaflet Plugins maintained:
-[leaflet-search](https://github.com/stefanocudini/leaflet-search) | 
-[leaflet-panel-layers](https://github.com/stefanocudini/leaflet-panel-layers) | 
-[leaflet-layerjson](https://github.com/stefanocudini/leaflet-layerjson) | 
-[leaflet-gps](https://github.com/stefanocudini/leaflet-gps) | 
-[leaflet-compass](https://github.com/stefanocudini/leaflet-compass) | 
-[leaflet-geojson-selector](https://github.com/stefanocudini/leaflet-geojson-selector) | 
-[leaflet-locationpicker](https://github.com/stefanocudini/leaflet-locationpicker) | 
-[leaflet-loader](https://github.com/stefanocudini/leaflet-loader) | 
-[leaflet-list-markers](https://github.com/stefanocudini/leaflet-list-markers)
+Leaflet Plugins maintained: 
+[search](https://github.com/stefanocudini/leaflet-search) | 
+[panel-layers](https://github.com/stefanocudini/leaflet-panel-layers) | 
+[layerjson](https://github.com/stefanocudini/leaflet-layerjson) | 
+[gps](https://github.com/stefanocudini/leaflet-gps) | 
+[compass](https://github.com/stefanocudini/leaflet-compass) | 
+[geojson-selector](https://github.com/stefanocudini/leaflet-geojson-selector) | 
+[locationpicker](https://github.com/stefanocudini/leaflet-locationpicker) | 
+[loader](https://github.com/stefanocudini/leaflet-loader) | 
+[list-markers](https://github.com/stefanocudini/leaflet-list-markers)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
