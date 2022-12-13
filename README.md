@@ -15,7 +15,7 @@ Social:
 [Medium](https://stefcud.medium.com) | 
 [Twitter](https://twitter.com/zakis)
 
-Leaflet Plugins maintained: 
+Leaflet Plugins: 
 [search](https://github.com/stefanocudini/leaflet-search) | 
 [panel-layers](https://github.com/stefanocudini/leaflet-panel-layers) | 
 [layerjson](https://github.com/stefanocudini/leaflet-layerjson) | 
