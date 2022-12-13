@@ -6,13 +6,12 @@ such as Web Gis, Web Mapping, Geocoding, Routing Engines, Vehicle Routing Proble
 It manages and is active on various **Open Source** projects known in the geospatial sector such as [KeplerJs](https://keplerjs.io/) [LeafletJs](https://leafletjs.com/) [Pelias Geocoder](https://pelias.io/) and [OpenStreetMap](https://osm.org/)
 
 Personal:
-[Website](https://opengeo.tech/) | [Resume](http://stefanocudini.github.io/stefanocudini/)
+[Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
 Social: 
 [StackOverflow](https://stackoverflow.com/users/526444/stefcud) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
-[GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) | 
-[Medium](https://stefcud.medium.com) | 
+[GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) |  
 [Twitter](https://twitter.com/zakis)
 
 Leaflet Plugins: 
