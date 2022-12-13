@@ -8,26 +8,21 @@ It manages and is active on various **Open Source** projects known in the geospa
 Personal:
 [Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
-Social: 
-[Twitter](https://twitter.com/zakis) | 
-[StackOverflow](https://stackoverflow.com/users/526444/stefcud) | 
-[OpenStreetMap](https://osm.org/user/StefanoCudini) | 
-[GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ)
+🍃 Leaflet Plugins:
 
-Leaflet Plugins: 
-[search](https://github.com/stefanocudini/leaflet-search) | 
-[panel-layers](https://github.com/stefanocudini/leaflet-panel-layers) | 
-[layerjson](https://github.com/stefanocudini/leaflet-layerjson) | 
-[gps](https://github.com/stefanocudini/leaflet-gps) | 
-[compass](https://github.com/stefanocudini/leaflet-compass) | 
-[geojson-selector](https://github.com/stefanocudini/leaflet-geojson-selector) | 
-[locationpicker](https://github.com/stefanocudini/leaflet-locationpicker) | 
-[list-markers](https://github.com/stefanocudini/leaflet-list-markers) | 
-[loader](https://github.com/stefanocudini/leaflet-loader)
+[![search](https://img.shields.io/github/stars/stefanocudini/leaflet-search?style=social&label=Search)](https://github.com/stefanocudini/leaflet-search) 
+[![panel](https://img.shields.io/github/stars/stefanocudini/leaflet-panel-layers?style=social&label=Panel-Layers)](https://github.com/stefanocudini/leaflet-panel-layers) 
+[![layerjson](https://img.shields.io/github/stars/stefanocudini/leaflet-layerjson?style=social&label=LayerJson)](https://github.com/stefanocudini/leaflet-layerjson) 
+[![gps](https://img.shields.io/github/stars/stefanocudini/leaflet-gps?style=social&label=Gps)](https://github.com/stefanocudini/leaflet-gps) 
+[![compass](https://img.shields.io/github/stars/stefanocudini/leaflet-compass?style=social&label=Compass)](https://github.com/stefanocudini/leaflet-compass) 
+[![geojson](https://img.shields.io/github/stars/stefanocudini/leaflet-geojson-selector?style=social&label=Geojson-Selector)](https://github.com/stefanocudini/leaflet-geojson-selector) 
+[![locationpicker](https://img.shields.io/github/stars/stefanocudini/leaflet-locationpicker?style=social&label=LocationPicker)](https://github.com/stefanocudini/leaflet-locationpicker) 
+[![list](https://img.shields.io/github/stars/stefanocudini/leaflet-list-markers?style=social&label=List-Markers)](https://github.com/stefanocudini/leaflet-list-markers) 
+[![loader](https://img.shields.io/github/stars/stefanocudini/leaflet-loader?style=social&label=Loader)](https://github.com/stefanocudini/leaflet-loader)  
 
+Social:
 [![Twitter Follow](https://img.shields.io/twitter/follow/zakis?label=Follow)](https://twitter.com/intent/follow?screen_name=zakis) 
-[![GitHub followers](https://img.shields.io/github/followers/stefanocudini?label=Follow&style=social)](https://github.com/stefanocudini?tab=followers) 
-[![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+2k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
+[![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+3k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
 [![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
