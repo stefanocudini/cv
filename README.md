@@ -23,8 +23,8 @@ Leaflet Plugins:
 [compass](https://github.com/stefanocudini/leaflet-compass) | 
 [geojson-selector](https://github.com/stefanocudini/leaflet-geojson-selector) | 
 [locationpicker](https://github.com/stefanocudini/leaflet-locationpicker) | 
-[loader](https://github.com/stefanocudini/leaflet-loader) | 
-[list-markers](https://github.com/stefanocudini/leaflet-list-markers)
+[list-markers](https://github.com/stefanocudini/leaflet-list-markers) | 
+[loader](https://github.com/stefanocudini/leaflet-loader)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/zakis?label=Follow)](https://twitter.com/intent/follow?screen_name=zakis) 
 [![GitHub followers](https://img.shields.io/github/followers/stefanocudini?label=Follow&style=social)](https://github.com/stefanocudini?tab=followers) 
