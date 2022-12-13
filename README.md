@@ -9,7 +9,7 @@ Personal:
 [Website](https://opengeo.tech/) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
 Social: 
-[StackOverflow](https://stackoverflow.com/users/526444/stefanocudini) | 
+[StackOverflow](https://stackoverflow.com/users/526444/stefcud) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
 [GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) | 
 [Medium](https://medium.com/@stefcud) | 
@@ -25,5 +25,9 @@ Leaflet Plugins maintained:
 [locationpicker](https://github.com/stefanocudini/leaflet-locationpicker) | 
 [loader](https://github.com/stefanocudini/leaflet-loader) | 
 [list-markers](https://github.com/stefanocudini/leaflet-list-markers)
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/zakis?label=Follow)](https://twitter.com/intent/follow?screen_name=zakis) 
+[![GitHub followers](https://img.shields.io/github/followers/stefanocudini?label=Follow&style=social)](https://github.com/stefanocudini?tab=followers) 
+[![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
