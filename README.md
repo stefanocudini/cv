@@ -9,10 +9,10 @@ Personal:
 [Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
 Social: 
+[Twitter](https://twitter.com/zakis) | 
 [StackOverflow](https://stackoverflow.com/users/526444/stefcud) | 
 [OpenStreetMap](https://osm.org/user/StefanoCudini) | 
-[GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ) |  
-[Twitter](https://twitter.com/zakis)
+[GoogleScholar](https://scholar.google.com/citations?user=3s158_wAAAAJ)
 
 Leaflet Plugins: 
 [search](https://github.com/stefanocudini/leaflet-search) | 
