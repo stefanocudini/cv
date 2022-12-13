@@ -18,7 +18,7 @@ Personal:
 [![geojson](https://img.shields.io/github/stars/stefanocudini/leaflet-geojson-selector?style=social&label=Geojson-Selector)](https://github.com/stefanocudini/leaflet-geojson-selector) 
 [![locationpicker](https://img.shields.io/github/stars/stefanocudini/leaflet-locationpicker?style=social&label=LocationPicker)](https://github.com/stefanocudini/leaflet-locationpicker) 
 [![list](https://img.shields.io/github/stars/stefanocudini/leaflet-list-markers?style=social&label=List-Markers)](https://github.com/stefanocudini/leaflet-list-markers) 
-[![loader](https://img.shields.io/github/stars/stefanocudini/leaflet-loader?style=social&label=Loader)](https://github.com/stefanocudini/leaflet-loader)  
+
 
 Social:
 [![Twitter Follow](https://img.shields.io/twitter/follow/zakis?label=Follow)](https://twitter.com/intent/follow?screen_name=zakis) 
