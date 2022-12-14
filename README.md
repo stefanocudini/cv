@@ -1,6 +1,6 @@
 # Stefano Cudini - Geospatial Open Source Developer
 
-Newbie since 1998 professional software developer since 2006, he has worked in various fields mainly
+Professional software developer since 2006 and newbie since 1998, I'm worked in various fields mainly
 on Web-oriented technologies, specializing in **geospatial solutions**
 such as Web Gis, Web Mapping, Geocoding, Routing Engines, Vehicle Routing Problem.
 It manages and is active on various **Open Source** projects known in the geospatial sector such as [KeplerJs](https://keplerjs.io/) [LeafletJs](https://leafletjs.com/) [Pelias Geocoder](https://pelias.io/) and [OpenStreetMap](https://osm.org/)
