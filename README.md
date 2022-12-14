@@ -2,7 +2,7 @@
 
 Professional software developer since 2006 and newbie since 1998, I'm worked in various fields mainly
 on Web-oriented technologies, specializing in **geospatial solutions**
-such as Web Gis, Web Mapping, Geocoding, Routing Engines, Vehicle Routing Problems.
+such as Web Gis, Geocoding, Routing Engines, Vehicle Routing Problems.
 I contribute and maintain many **Open Source** projects used by people and companies known in the geospatial sector such as [KeplerJs](https://keplerjs.io/) [LeafletJs](https://leafletjs.com/) [Pelias Geocoder](https://pelias.io/) and [OpenStreetMap](https://osm.org/)
 
 Personal:
