@@ -29,16 +29,10 @@
   "license": "CC BY-SA 3.0",
   "scripts": {
     "start": "./node_modules/live-server/live-server.js",
-    "build": "npx html-pdf index.html stefano-cudini-cv.pdf"
+    "build": "html-pdf index.html stefano-cudini-cv.pdf"
   },
-  "pre-commit": [
-    "build"
-  ],
   "dependencies": {
     "html-pdf": "^2.2.0",
     "live-server": "^1.2.1"
-  },
-  "devDependencies": {
-    "pre-commit": "^1.2.2"
   }
 }
