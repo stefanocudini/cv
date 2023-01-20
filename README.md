@@ -8,6 +8,10 @@ I contribute and maintain many **Open Source** projects used by people and compa
 Personal:
 [Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Twitter](https://twitter.com/intent/follow?screen_name=zakis) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
+Social:
+[![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+3k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
+[![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
+
 🍃 Leaflet Plugins:
 
 [![search](https://img.shields.io/github/stars/stefanocudini/leaflet-search?style=social&label=Search)](https://github.com/stefanocudini/leaflet-search) 
@@ -19,9 +23,5 @@ Personal:
 [![locationpicker](https://img.shields.io/github/stars/stefanocudini/leaflet-locationpicker?style=social&label=LocationPicker)](https://github.com/stefanocudini/leaflet-locationpicker) 
 [![list](https://img.shields.io/github/stars/stefanocudini/leaflet-list-markers?style=social&label=List-Markers)](https://github.com/stefanocudini/leaflet-list-markers) 
 
-
-Social:
-[![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+3k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
-[![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
