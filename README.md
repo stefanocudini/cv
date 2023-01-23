@@ -5,14 +5,13 @@ on Web-oriented technologies, specializing in **geospatial solutions**
 such as Web Gis, Geocoding, Routing Engines, Vehicle Routing Problems.
 I contribute and maintain many **Open Source** projects used by people and companies known in the geospatial sector such as [KeplerJs](https://keplerjs.io/) [LeafletJs](https://leafletjs.com/) and some of its [plugins](https://opengeo.tech/maps/), [Pelias Geocoder](https://pelias.io/), [OpenStreetMap](https://osm.org/)
 
-Personal:
 [Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Twitter](https://twitter.com/intent/follow?screen_name=zakis) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
 Social:
 [![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+3k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
 [![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
 
-🍃 Leaflet Plugins:
+### 🍃 Leaflet Plugins:
 
 [![search](https://img.shields.io/github/stars/stefanocudini/leaflet-search?style=social&label=Search)](https://github.com/stefanocudini/leaflet-search) 
 [![panel](https://img.shields.io/github/stars/stefanocudini/leaflet-panel-layers?style=social&label=Panel-Layers)](https://github.com/stefanocudini/leaflet-panel-layers) 
