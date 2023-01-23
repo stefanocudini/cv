@@ -21,7 +21,6 @@ Social:
 [![compass](https://img.shields.io/github/stars/stefanocudini/leaflet-compass?style=social&label=Compass)](https://github.com/stefanocudini/leaflet-compass) 
 [![geojson](https://img.shields.io/github/stars/stefanocudini/leaflet-geojson-selector?style=social&label=Geojson-Selector)](https://github.com/stefanocudini/leaflet-geojson-selector) 
 [![locationpicker](https://img.shields.io/github/stars/stefanocudini/leaflet-locationpicker?style=social&label=LocationPicker)](https://github.com/stefanocudini/leaflet-locationpicker) 
-[![list](https://img.shields.io/github/stars/stefanocudini/leaflet-list-markers?style=social&label=List-Markers)](https://github.com/stefanocudini/leaflet-list-markers) 
 
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
