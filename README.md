@@ -21,5 +21,8 @@ Social:
 [![geojson](https://img.shields.io/github/stars/stefanocudini/leaflet-geojson-selector?style=social&label=Geojson-Selector)](https://github.com/stefanocudini/leaflet-geojson-selector) 
 [![locationpicker](https://img.shields.io/github/stars/stefanocudini/leaflet-locationpicker?style=social&label=LocationPicker)](https://github.com/stefanocudini/leaflet-locationpicker) 
 
+### 🗺️ Geospatial projects:
+[![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
+
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
