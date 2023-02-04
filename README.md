@@ -27,8 +27,8 @@ Social:
 [![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 
 ### 🟥 NPM packages
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=@stefcud/fetch-dom)](https://github.com/stefanocudini/node-fetch-dom) 
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=@stefcud/configYml)](https://github.com/stefanocudini/configYml) 
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=@stefcud/ConfigYml)](https://github.com/stefanocudini/configYml) 
 
 [ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
 
