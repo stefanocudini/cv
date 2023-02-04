@@ -28,7 +28,7 @@ Social:
 
 ### 🟥 NPM packages
 [![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=@stefcud/ConfigYml)](https://github.com/stefanocudini/configYml) 
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
 
 [ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
 
