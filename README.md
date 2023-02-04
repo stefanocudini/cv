@@ -23,6 +23,13 @@ Social:
 
 ### 🗺️ Geospatial projects:
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
+[![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite) 
+[![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 
+### 🟥 NPM packages
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=@stefcud/fetch-dom)](https://github.com/stefanocudini/node-fetch-dom) 
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=@stefcud/configYml)](https://github.com/stefanocudini/configYml) 
+
+https://github.com/stefanocudini/
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
