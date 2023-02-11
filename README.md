@@ -27,8 +27,11 @@ Social:
 [![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 
 ### 🟥 NPM packages
+[![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
+[![bootstrap-list-filter](https://img.shields.io/github/stars/stefanocudini/bootstrap-list-filter?style=social&label=bootstrap-list-filter)](https://github.com/stefanocudini/bootstrap-list-filter) 
 [![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
+[![ConfigYml](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
+[![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
 [ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
 
