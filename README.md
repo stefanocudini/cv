@@ -23,8 +23,8 @@ Social:
 
 ### 🗺️ Geospatial projects:
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
-[![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite) 
-[![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=Overpass Query Cache)](https://github.com/stefanocudini/overpass-query-cache) 
+[![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
+[![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=OverpassQueryCache)](https://github.com/stefanocudini/overpass-query-cache) 
 
 ### minor porjects
 [![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
