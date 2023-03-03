@@ -42,6 +42,6 @@ Social:
 
 [ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
 
-to encourage the maintenance of projects that have helped your work you can send a donation [Paypal DONATION ❤️](https://www.paypal.me/stefanocudini)
+to encourage the maintenance of projects that have helped your work you can send a [Paypal DONATION ❤️](https://www.paypal.me/stefanocudini)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
