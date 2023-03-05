@@ -25,15 +25,15 @@ Social:
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
 [![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
 
-### minor porjects
-[![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
-
 ### 🟥 NPM packages
 [![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
 [![bootstrap-list-filter](https://img.shields.io/github/stars/stefanocudini/bootstrap-list-filter?style=social&label=bootstrap-list-filter)](https://github.com/stefanocudini/bootstrap-list-filter) 
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
 [![ConfigYml](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
+
+### minor projects
+[![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
 
 ### 🚧 work in progress
 [![GeoSFX](https://img.shields.io/github/stars/stefanocudini/GeoSFX?style=social&label=GeoSFX)](https://github.com/stefanocudini/GeoSFX) 
