@@ -23,8 +23,10 @@ Social:
 
 ### 🗺️ Geospatial projects:
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
-[![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite) 
-[![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
+[![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
+
+### minor porjects
+[![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
 
 ### 🟥 NPM packages
 [![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
@@ -33,6 +35,13 @@ Social:
 [![ConfigYml](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
+### 🚧 work in progress
+[![GeoSFX](https://img.shields.io/github/stars/stefanocudini/GeoSFX?style=social&label=GeoSFX)](https://github.com/stefanocudini/GeoSFX) 
+[![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
+[![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=OverpassQueryCache)](https://github.com/stefanocudini/overpass-query-cache) 
+
 [ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
+
+to encourage the maintenance of projects that have helped your work you can send a [Paypal DONATION ❤️](https://www.paypal.me/stefanocudini)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
