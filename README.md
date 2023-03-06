@@ -23,6 +23,7 @@ Social:
 
 ### 🗺️ Geospatial projects:
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
+[![kepler](https://img.shields.io/github/stars/keplerjs/kepler?style=social&label=KeplerJs)](https://github.com/keplerjs) 
 [![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
 
 ### 🟥 NPM packages
