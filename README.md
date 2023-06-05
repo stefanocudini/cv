@@ -26,22 +26,23 @@ Social:
 [![kepler](https://img.shields.io/github/stars/keplerjs/kepler?style=social&label=KeplerJs)](https://github.com/keplerjs) 
 [![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
 
-### 🟥 NPM packages
+### 🟥 Major NPM packages
 [![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
 [![bootstrap-list-filter](https://img.shields.io/github/stars/stefanocudini/bootstrap-list-filter?style=social&label=bootstrap-list-filter)](https://github.com/stefanocudini/bootstrap-list-filter) 
 [![ConfigYml](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
-### minor projects
+### 🛠 Minor projects
 [![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
 [![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
+[![UltraLightGallery](https://img.shields.io/github/stars/stefanocudini/UltraLightGallery?style=social&label=FetchDom)](https://github.com/stefanocudini/UltraLightGallery) 
 
-### 🚧 work in progress
+### 🚧 Work in progress
 [![GeoSFX](https://img.shields.io/github/stars/stefanocudini/GeoSFX?style=social&label=GeoSFX)](https://github.com/stefanocudini/GeoSFX) 
 [![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 [![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=OverpassQueryCache)](https://github.com/stefanocudini/overpass-query-cache) 
 
-[ ⚫️ my dot files](https://github.com/stefanocudini/dotfiles)
+[ ⚫️ Dot Files](https://github.com/stefanocudini/dotfiles)
 
 to encourage the maintenance of projects that have helped your work you can send a [Paypal DONATION ❤️](https://www.paypal.me/stefanocudini)
 
