@@ -26,7 +26,7 @@ Social:
 [![kepler](https://img.shields.io/github/stars/keplerjs/kepler?style=social&label=KeplerJs)](https://github.com/keplerjs) 
 [![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
 
-### 🟥 Major NPM packages
+### 🟥 [NPM packages](https://www.npmjs.com/~stefcud)
 [![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
 [![bootstrap-list-filter](https://img.shields.io/github/stars/stefanocudini/bootstrap-list-filter?style=social&label=bootstrap-list-filter)](https://github.com/stefanocudini/bootstrap-list-filter) 
 [![ConfigYml](https://img.shields.io/github/stars/stefanocudini/configYml?style=social&label=ConfigYml)](https://github.com/stefanocudini/configYml) 
