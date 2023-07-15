@@ -7,7 +7,6 @@ I contribute and maintain many **Open Source** projects used by people and compa
 
 [Website](https://opengeo.tech/) | [Blog](https://stefcud.medium.com) | [Twitter](https://twitter.com/intent/follow?screen_name=zakis) | [Resume](http://stefanocudini.github.io/stefanocudini/)
 
-Social:
 [![Openstreetmap](https://img.shields.io/badge/Openstreetmap-+3k-brightgreen?style=social&logo=Openstreetmap)](https://osm.org/user/StefanoCudini)
 [![Stackoverflow](https://img.shields.io/badge/Stackoverflow-+2k-brightgreen?style=social&logo=stackoverflow)](https://stackoverflow.com/users/526444/stefcud?tab=profile)
 
