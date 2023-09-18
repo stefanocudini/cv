@@ -31,14 +31,13 @@
     "start": "./node_modules/live-server/live-server.js",
     "__build": "html-pdf index.html stefano-cudini.pdf"
   },
-  "__pre-commit": [
+  "pre-commit": [
     "build"
   ],
   "dependencies": {
     "live-server": "^1.2.1"
   },
   "devDependencies": {
-    "html-pdf": "^3.0.1",
-    "pre-commit": "^1.2.2"
+    "html-pdf": "^3.0.1"
   }
 }
