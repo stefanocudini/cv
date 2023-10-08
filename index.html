@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=yes" />
     <link rel="shortcut icon" type="image/png" href="stefano-cudini_60px.png" />
     <link rel="image_src" href="stefano-cudini.png" />
+    <link rel="icon" type="image/png" href="stefano-cudini.png">
     <style>
     body {
         font-family: Didot, Helvetica, Arial;
@@ -414,12 +415,12 @@
             <div class="contents">
                 <ul>
                     <li>
-                        <h3><a href="https://kepler.opengeo.tech/">KeplerJs platform</a></h3>
-                        Piattaforma di <strong>geosocial networking</strong> full-stack e <strong>open source</strong> in <strong>NodeJs</strong>.
+                        <h3><a href="https://github.com/opengeo-tech/geopicker">GeoPicker</a></h3>
+                        Una estesa e veloce API Rest in <strong>NodeJs</strong> con <strong>GDAL</strong> bindings e <strong>Fastify</strong>
                     </li>
                     <li>
-                        <h3><a href="https://github.com/opengeo-tech/geopicker">GeoPicker</a></h3>
-                        Geospatial dataset picker via fast Api Rest interface written in NodeJs for <strong>GDAL</strong> bindings and <strong>Fastify</strong>
+                        <h3><a href="https://kepler.opengeo.tech/">KeplerJs platform</a></h3>
+                        Piattaforma di <strong>geosocial networking</strong> full-stack e <strong>open source</strong> in <strong>NodeJs</strong>.
                     </li>
                     <li>
                         <h3><a href="https://blog.mixtags.com/">Mixtags.com</a></h3>
@@ -454,6 +455,92 @@
         </div>
         <div class="row date">
             <div class="title">Date</div>
+            <div class="contents">Gennaio 2021 - presente</div>
+        </div>
+        <div class="row">
+            <div class="title">attività</div>
+            <div class="contents">
+                <p>
+                    Contratto dipendente a tempo intederminato in smartworking.
+                </p>
+                <ul>
+                    <li>
+                        <strong>Mentor</strong>
+                        <br />
+                        Progetto finanziato dal programma Interreg-V-A Italia-Svizzera, coordinato dal <a href="https://www.comune.merano.bz.it/it/Progetto_MENTOR">Comune di Merano</a> e realizzato in collaborazione con il NOI Techpark.
+                        Con lo scopo incentivare l'utilizzo dei mezzi di trasporto ecologici per la prima volta in piccole località dell'arco alpino - forme innovative di mobilità secondo il concetto <strong>MAAS (Mobility-as-a-Service)</strong>.
+                        <br />
+                        Composto da numerosi microservizi con tecnologia Docker/NodeJs e <strong>front-end webgis</strong> avanzato in <strong>React</strong>.
+
+                        Integrazione con sistema di calcolo multi modale tramite il routing engine <strong>OpenTripPlanner</strong> su dati di trasporto pubblico dell'Alto Adige/Südtirol.
+                        e numerose sorgenti della piattaforma <a href="https://opendatahub.io/">OpenDataHub</a> comprendenti:
+                        dati in realtime di <strong>bike-sharing</strong>, <strong>car-sharing</strong>, <strong>car-pooling</strong>, parking e <strong>DRT</strong> locale.
+                        <br />
+                        <a href="https://github.com/noi-techpark/odh-mentor-otp">[Sorgenti]</a>
+                        <br />
+                        Sito ufficiale: <a href="https://mobility.meran.eu">mobility.meran.eu</a>
+                    </li>
+                    <li>
+                        <strong>OJP Middleware</strong>
+                        <br />
+                        <i>(Open API for distributed Journey Planning to OpenTripPlanner Middleware)</i>
+                        <br />
+                        Progettazione completa ed implementazione del progetto open source seguendo le <a href="https://github.com/VDVde/OJP">Specifiche del protocollo OJP v1.0</a>
+                        per una sistema <a href="https://opentransportdata.swiss/en/cookbook/open-journey-planner-ojp/">Passivo OJP</a> che si interfaccia ad OpenTripPlanner per il calcolo dei percorsi intermodali e la ricerca di dati
+                        su trasporto pubblico di varie agenzie italiane sul confine con Svizzera ed Austria.
+                        <br />
+                        <a href="https://github.com/openmove/ojp-middleware">[Sorgenti]</a> <a href="https://github.com/openmove/ojp-middleware/blob/master/docs/images/OJP_Architecture_macro.png">[Architecture]</a>
+                    </li>
+                    <li>
+                        <strong>MuoversinPiemonte.it</strong>
+                        <br />
+                        Istanza personalizzata del <strong>geocoder</strong> open source <a href="https://pelias.io/" target="_blank">Pelias</a> con
+                        integrazione di <strong>ElasticSearch</strong> per la ricerca di numeri civici, strade e punti di interesse provenienti da OpenStreetMap e altre fonti dati custom.
+                        <br />
+                        Pipeline di aggiornamento dati e backup su piattaforma cloud AWS.
+                        <br />
+                        Implementazione di API Rest configurabile su microservizi <strong>Docker/NodeJs</strong> per la condivisione di dati <strong>GBFS</strong>, parcheggi, bike-sharing e <strong>GTFS</strong> Park & Ride.
+                        <br />
+                        <a href="https://github.com/DigitalCommonsLab/docker-pelias-geocoder">[Sorgenti]</a>
+                        Sviluppo di importer Pelias da sorgenti Open Data del Piemonte
+                        <br />
+                        <a href="https://www.muoversinpiemonte.it">www.muoversinpiemonte.it</a>
+                    </li>
+                    <li>
+                        <strong>Sistema trasporto a chiamata</strong>
+                        DRT (Demand Responsive Transport) con gestione di flotte di veicoli e prenotazioni multiple in tempo reale.
+                        Personalizzazione del <strong>Routing Engine</strong> <a href="https://openrouteservice.org/">OpenRouteService</a>
+                        e istanza personalizzata del VRP(<strong>Vehicle Routing Problem</strong>) <a href="https://vroom-project.org/">Vroom</a>
+                        <br />
+                        Integrazione dei microservizi nella infrastruttura aziendale su tecnologia <strong>NodeJs</strong>.
+                    </li>
+                    <li>
+                        <strong>Madonna di Campiglio</strong>
+                        Portale
+                        <br />
+                        <a href="https://campiglio.openmove.com">campiglio.openmove.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">Datore</div>
+            <div class="contents">
+                Libon srl<br />
+                <br />
+                Via delle Laste 12, Mori, Trento<br />
+            </div>
+        </div>
+    </div>
+    <a href="#esperienzepro"></a>
+    <div class="cat">
+        <div class="row">
+            <div class="title sez">
+                <h2>Esperienza professionale</h2>
+            </div>
+        </div>
+        <div class="row date">
+            <div class="title">Date</div>
             <div class="contents">Febbraio 2018 - Dicembre 2020</div>
         </div>
         <div class="row">
@@ -477,24 +564,24 @@
                     <li>
                         Ricerca geospaziale di edifici scolastici
                         <br />
-                        <a href="https://github.com/DigitalCommonsLab/osm4schools">[Sources]</a>
+                        <a href="https://github.com/DigitalCommonsLab/osm4schools">[Sorgenti]</a>
                     </li>
                     <li>
                         Visualizzazione dati su <a href="https://professioni.istat.it">professioni ISTAT</a> e <a href="https://fabbisogni.isfol.it/">competenze ISFOL</a>
                         <br />
-                        <a href="https://github.com/DigitalCommonsLab/professioni_istat">[Sources]</a>
+                        <a href="https://github.com/DigitalCommonsLab/professioni_istat">[Sorgenti]</a>
                     </li>
                     <li>
                         Istanza personalizzata del <strong>geocoder</strong> open source <a href="https://pelias.io/" target="_blank">Pelias</a> su piattaforma <strong>Docker</strong>,
                         <br />
                         integrato con <strong>Elasticsearch</strong> per la ricerca di numeri civici, strade e punti di interesse provenienti da OpenStreetMap.
                         <br />
-                        <a href="https://github.com/DigitalCommonsLab/docker-pelias-geocoder">[Sources]</a>
+                        <a href="https://github.com/DigitalCommonsLab/docker-pelias-geocoder">[Sorgenti]</a>
                     </li>
                     <li>
                         Sviluppo di importer Pelias per numeri civici e strade da sorgenti Open Data di alcune amministrazioni locali del Trentino Alto Adige.
                         <br />
-                        <a href="https://github.com/DigitalCommonsLab/pelias-importer-trentino-opendata">[Sources]</a>
+                        <a href="https://github.com/DigitalCommonsLab/pelias-importer-trentino-opendata">[Sorgenti]</a>
                     </li>
                     <li>
                         Applicazione <strong>Docker multi container</strong> per l'ottimizzazione dell'instradamento di flotte di veicoli per la raccolta di rifiuti,
@@ -505,7 +592,7 @@
                         script <strong>Python</strong> in ambiente <strong>Jupyter</strong> per i test sul caso di studio<br />
                         dati integrati col grafo stradale di <a href="https://osm.org">OpenStreetMap</a>
                         <br />
-                        <a href="https://github.com/DigitalCommonsLab/docker-ors-vroom">[Sources]</a>
+                        <a href="https://github.com/DigitalCommonsLab/docker-ors-vroom">[Sorgenti]</a>
                     </li>
                     <li>
                         Altri Progetti: <br />
@@ -519,7 +606,7 @@
             <div class="title">Corsi frequentati</div>
             <div class="contents">
                 <ul>
-                    <li>Cloud Architectures and Applications</li>
+                    <li>Cloud Architectures and Applications su Azure</li>
                     <li>Python for Data Science</li>
                     <li>Sicurezza Base - Formazione generale</li>
                     <li>Sicurezza Base - Formazione specifica</li>
@@ -529,10 +616,10 @@
         <div class="row">
             <div class="title">Datore</div>
             <div class="contents">
-                Fondazione Bruno Kessler<br />
-                Centro di Information and Communication Technology<br />
+                Centro di ricerca - Fondazione Bruno Kessler<br />
+                Divisione Information and Communication Technology<br />
                 <br />
-                Via Sommarive, 18 Povo, Trento<br />
+                Via Sommarive 18, Povo, Trento<br />
                 www.fbk.eu
             </div>
         </div>
@@ -614,13 +701,13 @@
                         <h3><a href="https://www.youtube.com/watch?v=xUM3M32cAgA">Fenix Platform</a></h3>
                         Framework di elaborazione e presentazione di metadati
                         <br />
-                        <a href="https://github.com/FENIX-Platform/">[Sources]</a>
+                        <a href="https://github.com/FENIX-Platform/">[Sorgenti]</a>
                     </li>
                     <li>
                         <h3>Crowd Prices</h3>
                         Sistema di monitoraggio real-time dei prezzi acquisiti in crowdsourcing nei mercati di alcuni paesi dell'Africa
                         <br />
-                        <a href="https://github.com/FENIX-Platform-Projects/crowdprices-web">[Sources]</a>
+                        <a href="https://github.com/FENIX-Platform-Projects/crowdprices-web">[Sorgenti]</a>
                     </li>
                     <li>
                         <h3>Global Land Use Trends Portal</h3>
@@ -639,15 +726,15 @@
                         Monitoraggio e calcolo di alcuni parametri ambientali: precipitazioni, temperatura, evapotraspirazione, indice vegetazione<br />
                         Utilizzo e sviluppo del framework open source <a href="https://github.com/geobricks">Geobricks</a> in Python per acquisizione e post processamento di dati NASA.
                         <br />
-                        <a href="https://github.com/FENIX-Platform-Projects/nena-ui">UI [Sources]</a>,
-                        <a href="https://github.com/FENIX-Platform-Projects/nena-regions">Python [Sources]</a>
+                        <a href="https://github.com/FENIX-Platform-Projects/nena-ui">UI [Sorgenti]</a>,
+                        <a href="https://github.com/FENIX-Platform-Projects/nena-regions">Python [Sorgenti]</a>
                     </li>
                     <li>
                         <h3>Economic Cooperation Organization (ECO) countries</h3>
                         Monitoraggio di flussi di import/export di merci tra i paesi della ECO<br />
                         Utilizzo e sviluppo del <a href="https://github.com/FENIX-Platform/fenix-ui-map/graphs/contributors">modulo geospaziale</a> del framework <a href="https://github.com/feNIX-Platform">Fenix</a>.
                         <br />
-                        <a href="https://github.com/FENIX-Platform-Projects/eco-trade-ui">[Sources]</a>
+                        <a href="https://github.com/FENIX-Platform-Projects/eco-trade-ui">[Sorgenti]</a>
                     </li>
                     <li>
                         Altri Progetti:<br />
