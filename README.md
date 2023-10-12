@@ -32,7 +32,6 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
 ### 🛠 Minor projects
-[![youtubecaster](https://img.shields.io/github/stars/stefanocudini/youtubecaster?style=social&label=YoutubeCaster)](https://github.com/stefanocudini/youtubecaster) 
 [![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
 [![UltraLightGallery](https://img.shields.io/github/stars/stefanocudini/UltraLightGallery?style=social&label=UltraLightGallery)](https://github.com/stefanocudini/UltraLightGallery) 
 [![weather-telegram-bot](https://img.shields.io/github/stars/stefanocudini/weather-telegram-bot?style=social&label=weather-telegram-bot)](https://github.com/stefanocudini/weather-telegram-bot) 
