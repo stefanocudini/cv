@@ -36,6 +36,7 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![weather-telegram-bot](https://img.shields.io/github/stars/stefanocudini/weather-telegram-bot?style=social&label=weather-telegram-bot)](https://github.com/stefanocudini/weather-telegram-bot) 
 
 ### 🚧 Work in progress
+[![NeleusGeocoder](https://img.shields.io/github/stars/neleus-geocoder?style=social&label=Neleus%20Geocoder)](https://github.com/neleus-geocoder) 
 [![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 [![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=OverpassQueryCache)](https://github.com/stefanocudini/overpass-query-cache) 
 
