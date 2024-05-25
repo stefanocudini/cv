@@ -32,14 +32,23 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
 ### 🛠 Minor projects
-[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=FetchDom)](https://github.com/stefanocudini/node-fetch-dom) 
 [![UltraLightGallery](https://img.shields.io/github/stars/stefanocudini/UltraLightGallery?style=social&label=UltraLightGallery)](https://github.com/stefanocudini/UltraLightGallery) 
 [![weather-telegram-bot](https://img.shields.io/github/stars/stefanocudini/weather-telegram-bot?style=social&label=weather-telegram-bot)](https://github.com/stefanocudini/weather-telegram-bot) 
 
 ### 🚧 Work in progress
-[![GeoSFX](https://img.shields.io/github/stars/stefanocudini/GeoSFX?style=social&label=GeoSFX)](https://github.com/stefanocudini/GeoSFX) 
 [![orthogonalize-js](https://img.shields.io/github/stars/stefanocudini/orthogonalize-js?style=social&label=OrthogonalizeJs)](https://github.com/stefanocudini/orthogonalize-js) 
 [![overpass-query-cache](https://img.shields.io/github/stars/stefanocudini/overpass-query-cache?style=social&label=OverpassQueryCache)](https://github.com/stefanocudini/overpass-query-cache) 
+
+### 🔬 Experimental
+[![node-fetch-dom](https://img.shields.io/github/stars/stefanocudini/node-fetch-dom?style=social&label=node-fetch-dom)](https://github.com/stefanocudini/node-fetch-dom) 
+[![GeoSFX](https://img.shields.io/github/stars/stefanocudini/GeoSFX?style=social&label=GeoSFX)](https://github.com/stefanocudini/GeoSFX) 
+[![ChessWebsocket](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=websocket-chess)](https://github.com/stefanocudini/websocket-chess) 
+[![osm-contributors-by-area](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=osm-contributors-by-area)](https://github.com/stefanocudini/osm-contributors-by-area) 
+[![download-limiter-php](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=download-limiter-php)](https://github.com/stefanocudini/download-limiter-php) 
+[![realtime-access-map](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=realtime-access-map)](https://github.com/stefanocudini/realtime-access-map) 
+[![osm-tile-cacher](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=osm-tile-cacher)](https://github.com/stefanocudini/osm-tile-cacher) 
+[![foursquare-here](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=foursquare-here)](https://github.com/stefanocudini/foursquare-here) 
+
 
 [ ⚫️ Dot Files](https://github.com/stefanocudini/dotfiles)
 
