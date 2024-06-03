@@ -50,9 +50,8 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![osm-tile-cacher](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=osm-tile-cacher)](https://github.com/stefanocudini/osm-tile-cacher) 
 [![foursquare-here](https://img.shields.io/github/stars/stefanocudini/websocket-chess?style=social&label=foursquare-here)](https://github.com/stefanocudini/foursquare-here) 
 
+[Dotfiles](https://github.com/stefanocudini/dotfiles)
 
-[ ⚫️ Dot Files](https://github.com/stefanocudini/dotfiles)
-
-to encourage the maintenance of projects that have helped your work you can send a [Paypal DONATION ❤️](https://www.paypal.me/stefanocudini)
+to encourage the maintenance of projects that have helped your work you can send a [Donation ❤️](https://www.paypal.me/stefanocudini)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=stefanocudini&theme=graywhite&hide_border=true&custom_title=Activity%20stats)
