@@ -32,8 +32,8 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![labshub](https://img.shields.io/github/stars/stefanocudini/labshub?style=social&label=labshub)](https://github.com/stefanocudini/labshub) 
 
 ### 🛠 Minor projects
-[![UltraLightGallery](https://img.shields.io/github/stars/stefanocudini/UltraLightGallery?style=social&label=UltraLightGallery)](https://github.com/stefanocudini/UltraLightGallery) 
-[![weather-telegram-bot](https://img.shields.io/github/stars/stefanocudini/weather-telegram-bot?style=social&label=weather-telegram-bot)](https://github.com/stefanocudini/weather-telegram-bot) 
+[![Ultra Light Gallery](https://img.shields.io/github/stars/stefanocudini/UltraLightGallery?style=social&label=UltraLightGallery)](https://github.com/stefanocudini/UltraLightGallery) 
+[![Weather Telegram Bot](https://img.shields.io/github/stars/stefanocudini/weather-telegram-bot?style=social&label=Weather%20Telegram%20Bot)](https://github.com/stefanocudini/weather-telegram-bot) 
 
 ### 🚧 Work in progress
 [![NeleusGeocoder](https://img.shields.io/github/stars/neleus-geocoder?style=social&label=Neleus%20Geocoder)](https://github.com/neleus-geocoder) 
