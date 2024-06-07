@@ -24,6 +24,9 @@ I contribute and maintain many **Open Source** projects used by people and compa
 [![geopicker](https://img.shields.io/github/stars/opengeo-tech/geopicker?style=social&label=GeoPicker)](https://github.com/opengeo-tech/geopicker) 
 [![kepler](https://img.shields.io/github/stars/keplerjs/kepler?style=social&label=KeplerJs)](https://github.com/keplerjs) 
 [![peliaslite](https://img.shields.io/github/stars/stefanocudini/peliaslite?style=social&label=PeliasLite)](https://github.com/stefanocudini/peliaslite)
+[![gpsdata-server](https://img.shields.io/github/stars/stefanocudini/gpsdata-server?style=social&label=GPSdataServer)](https://github.com/stefanocudini/gpsdata-server)
+[![gps-network-tracking-system](https://img.shields.io/github/stars/stefanocudini/gps-network-tracking-system?style=social&label=GPSNetworkTrackingSystem)](https://github.com/stefanocudini/gps-network-tracking-system)
+
 
 ### 🟥 [NPM packages](https://www.npmjs.com/~stefcud)
 [![bootstrap-confirm-button](https://img.shields.io/github/stars/stefanocudini/bootstrap-confirm-button?style=social&label=bootstrap-confirm-button)](https://github.com/stefanocudini/bootstrap-confirm-button) 
